@@ -1,145 +1,28 @@
-/**
-        _     /\     _
-        \\   /  \   //
-         \  /    \  /
-          \/      \/
-          /\      /\
-         /  \    /  \
-        /    \  /    \
-       /______\/______\
-Earth Three-body Organization
-         ------------
-           ÈıÌå±£ÓÓ
-           ÓÀÎŞbug
-         ------------
-             --by ETO
+/*
+This file is a kind of Operating System but now it's only a shell.
+Copyright (C) 2022 HelloOSMe 
+This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version.
+This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details. You should have received a copy of the GNU General Public License along with this program; if not, write to the Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.
+Also add information on how to contact you by electronic and paper mail.
 */
-/**
-           ()
-      ____    _____
-     /    \__/     \
-    /               \
-    |               /
-    |    ²»Ö§³Ö    |
-    |    color      \
-    \      __       /
-     \____/  \_____/
-      MacOS Big Sur
-
-±¾ÏµÍ³²»Ö§³ÖMACËŞÖ÷color·şÎñ£¡
-   MacµÄcolorÈİÒ×Êä³öÂÒÂë£¡
-**/
-/**##*ÉùÃ÷*##
-±¾³ÌĞò´úÂëÎª±¾ÈËÒ»ÈËËùÇÃ£¬°æÈ¨ËùÓĞ£¬ÇëÎğ×ªÔØ£¡
-³ÌĞò´úÂëÓĞÉÏÇ§ĞĞ£¬±àÒëµÄ¼ÆËã»úÄÚ´æ±ØĞë´óÓÚ4GB£¬·ñÔòËÀ»úºó¹û×Ô¸º¡£
-³ÌĞò¹ı´ó£¬±àÒë½ÏÂı£¬ÇëÄÍĞÄµÈ´ı£¡
-±¾ÈË²»³Ğµ£ÈÎºÎÓÉ³ÌĞò±àÒë»òÊ¹ÓÃ²»µ±¶øÔì³ÉµÄËÀ»ú£¡
-**/
-/**   #System#
-----[]        []
-    []        []
-----[][][][][][]
-    []        []
-    []        []
-----[]<><><><>[]
-     HelloOS(R)
-*/
-/**    #Copiright#
-      []        []
-     []        []
-    []        []
-     [][][][][][]
-      []        []
-       []        []
-      []        []
-(c) 2021-2022 HelloCompany(Zhou Ziming)
-	All Rights Reserved.
-*/
-/**||                         ||
-   \/ÒÔÏÂÎª"HelloOSÏµÍ³"Ô´´úÂë\/    **/
-/***=============HelloOS v1.0=============***/
-/*--------------×¢ÊÍÇø-------------*/
-/**¿ªÊ¼½çÃæ£º2022/04/24
- * ĞéÄâ´ÅÅÌ´´½¨£º2022/05/02
- * ÓÃ»§£º2022/05/02
- * ÅÌ·û£º2022/05/02
- * ÃüÁîÊäÈë£º2022/05/02
- * ÃüÁîÖ´ĞĞ£º2022/05/02  start
- * ÃÜÂëºÍ¹ÜÀíÔ±£º2022/05/04
- * HelloStore: 2022/05/21
-*/
-/**ÃüÁîÖ´ĞĞ£º
- * help: 2022/05/02
- * about/system: 2022/05/02
- * basic: 2022/05/02
- * break: 2022/05/02
- * chguser: 2022/05/02
- * cls/clear: 2022/05/02
- * close: 2022/05/02
- * dir: 2022/05/03
- * dos: 2022/05/03
- * file: 2022/05/03
- * i: 2022/05/03
- * Java:2022/05/03
- * py: 2022/05/03
- * run/open: 2022/05/03;2022/05/07
- * reboot: 2022/05/03
- * ver/version: 2022/05/03
- * chgpass: 2022/05/04
- * kill: 2022/05/07
- * tree: 2022/05/14
- * cop: 2022/05/14
- * logoff: 2022/05/19
- * store: 2022/05/21
- * chkver: 2022/06/01
- * time: 2022/06/01
- * insys: 2022/07/13
-*/
-
-/**¼ò½é£º
- * @FileClass£ºÏµÍ³
- * @FileName£ºHelloOS 1.0.8.cpp
- * @LastUpdataTime£º2022/07/12
- * @LastVersion£º1.0.7
- * @Author£ºHelloCompany
-*/
-/**¸üĞÂ¼ÇÂ¼±êÇ©:
- * (N)-Normal-Õı³£¸üĞÂ
- * (S)-Special-ÌØ±ğ¸üĞÂ
- * (W)-Warning-½ô¼±¸üĞÂ
-*/
-/**¸üĞÂ¼ÇÂ¼:
- * 2022/04/24: (N)¿ªÊ¼ÏîÄ¿(@begintime),¸üĞÂ¿ªÊ¼½çÃæ
- * 2022/05/02: (N)¸üĞÂ»¶Ó­½çÃæ,½¨Á¢´ÅÅÌ½çÃæ,ÔËĞĞ½çÃæºÍ7¸öÃüÁî
- * 2022/05/03: (N)¸üĞÂ8¸öÃüÁî,ÏµÍ³ÍêÉÆ
- * 2022/05/04: (N)¸üĞÂchgpassºÍrunÃüÁî,Ê¹Ó¦ÓÃÎŞ·¨ÔÚ²»¶ÔÓ¦ÎÄ¼ş¼Ğ´ò¿ª,ÓĞÁË¹ÜÀíÔ±
- * 2022/05/06: (N)ĞŞÀíchgpassÃüÁîµÄbug
- * 2022/05/07: (N)ĞŞÀíchguserÃüÁîµÄbug¼°kill¡¢openÃüÁîÎŞ·¨Ê¹ÓÃµÄbug,ÖØÆôºó×Ô¶¯»Ø¹éHÅÌ
- * 2022/05/14: (N)¸üĞÂtree,copÃüÁî
- * 2022/05/19: (N)¸üĞÂlogoffÃüÁîÓë²Ù×÷½çÃæÓÅ»¯
- * 2022/05/21: (N)¸üĞÂHelloStoreÓ¦ÓÃ
- * 2022/05/25: (S)525¸üĞÂ_ÓÅ»¯¿ª»ú¶¯»­
- * 2022/05/27: (S)"527Ê¡Èü¾öÈüÌØ±ğ°æ",¸ü¸Ä´ÅÅÌ½¨Á¢½çÃæ,ÔÊĞíÃüÁîÊäÈë´óĞ´×ÖÄ¸
- * 2022/06/01:1(W)½ô¼±¸üĞÂ: ĞŞ¸´Linux·şÎñÆ÷clearÃüÁîÈ±Ïİ
-              2(N)¸üĞÂ°æ±¾¼ì²â,timeÃüÁî
- * 2022/06/06: (N)¸üĞÂcolorÃüÁî
- * 2022/06/18: (S)"¿¼ÊÔ¼ÓÓÍ"¸üĞÂ,Ôö¼ÓÃÜÂëÈÏÖ¤¡£
- * 2022/06/19: (N)¸üĞÂBASICÃüÁî 
- * 2022/06/29: (N)¸üĞÂtimeÃüÁî,Ìí¼ÓĞÂ¹ÜÀíÔ±(²âÊÔ)ÓÃ»§
- * 2022/06/30: (N)¸üĞÂÊäÈëÃüÁî½çÃæ,ĞŞÀíĞÂ¹ÜÀíÔ±ÃÜÂëbug
- * 2022/07/13: (N)¸üĞÂÅÌ·û£¬¿É½øÈëÏµÍ³ÎÄ¼ş¼Ğ¡£
-*/
-/***============´úÂëÕıÊ½¿ªÊ¼=============***/
+/***============ä»£ç æ­£å¼å¼€å§‹=============***/
 #ifndef __HelloOS
 #define __HelloOS
-/*---------Í·ÎÄ¼ş¼°±ØÒªÃüÁîÇø---------*/
+/*---------å¤´æ–‡ä»¶åŠå¿…è¦å‘½ä»¤åŒº---------*/
 #include<bits/stdc++.h>
-#include<unistd.h>//ÓÖÄÜÓÃÁË
-using namespace std;
-//====Èç¹ûÊÇWindows¶Ë====
+#include<unistd.h>//åˆèƒ½ç”¨äº†
+using std::cout;
+using std::cin;
+using std::string;
+using std::endl;
+using std::ifstream;
+using std::ofstream;
+using std::fstream;
+using std::iostream;
+//====å¦‚æœæ˜¯Windowsç«¯====
 #if defined(_WIN32)||defined(_AMD64)||defined(_ARM64)
 #define SYSTEM 1
-#include<windows.h>//WinAPI°üº¬Sleep
+#include<windows.h>//WinAPIåŒ…å«Sleep
 #define cls system("cls")
 #define c_normal system("color")
 #define f_cyan color("09")
@@ -150,43 +33,43 @@ using namespace std;
 #define f_red color("04")
 #define f_grey color("08")
 void color(string cl){
-	//cout<<"Windows¶Ë²»Ö§³Ö!ÇëÊäÈëDOSÔÙÊ¹ÓÃ!"<<endl;
-	for(int i=0;i<cl.size();i++){
-		if(cl[i]>='a'&&cl[i]<='z'){
-			cl[i]=cl[i]-32;
-		}
-	} 
-	if(cl=="HELP"){
-		system("color /?");
-	}else if(cl=="NORMAL"){
-		c_normal;
-	}
-	int a,b;
-	if(cl[0]>='0'&&cl[0]<='9'){
-		a=cl[0]-'0';
-	}else{
-		a=cl[0]-55;
-	}
-	if(cl[1]>='0'&&cl[1]<='9'){
-		b=cl[1]-'0';
-	}else{
-		b=cl[1]-55;
-	}
-	if(cl=="normal"){
-		a=0;b=0;
-	}
-	HANDLE handle;//1
-	handle=GetStdHandle(STD_OUTPUT_HANDLE);//2
-	SetConsoleTextAttribute(handle,a*16+b);//3 ----WinAPI
+    //cout<<"Windowsç«¯ä¸æ”¯æŒ!è¯·è¾“å…¥DOSå†ä½¿ç”¨!"<<endl;
+    for(int i=0;i<cl.size();i++){
+        if(cl[i]>='a'&&cl[i]<='z'){
+            cl[i]=cl[i]-32;
+        }
+    } 
+    if(cl=="HELP"){
+        system("color /?");
+    }else if(cl=="NORMAL"){
+        c_normal;
+    }
+    int a,b;
+    if(cl[0]>='0'&&cl[0]<='9'){
+        a=cl[0]-'0';
+    }else{
+        a=cl[0]-55;
+    }
+    if(cl[1]>='0'&&cl[1]<='9'){
+        b=cl[1]-'0';
+    }else{
+        b=cl[1]-55;
+    }
+    if(cl=="normal"){
+        a=0;b=0;
+    }
+    HANDLE handle;//1
+    handle=GetStdHandle(STD_OUTPUT_HANDLE);//2
+    SetConsoleTextAttribute(handle,a*16+b);//3 ----WinAPI
 }
-string colorset;//WindowsÃ»ÓÃ 
-//=====Èç¹ûÊÇLinux¶Ë=====
+string colorset;//Windowsæ²¡ç”¨ 
+//=====å¦‚æœæ˜¯Linuxç«¯=====
 #else
 #define SYSTEM 0
 #define clear cout<<"\033c"
 void Sleep(int a){
-	usleep(a*1000);
-}//×Ô¶¨Sleep
+    usleep(a*1000);
+}//è‡ªå®šSleep
 #define c_normal cout<<"\033[000m"
 #define f_cyan cout<<"\033[36;1m"
 #define f_purple cout<<"\033[35;1m"
@@ -198,75 +81,75 @@ void Sleep(int a){
 string colorset="normal";
 void cls();
 extern void color(string s){
-	if(s=="help"){
-		cout<<"Linux:  ÊäÈë"<<endl;
-		cout<<"normal  Ä¬ÈÏ"<<endl;
-		cout<<"hide    \033[31;1mÍ£ÓÃ\033[000m"<<endl;
-		cout<<"show    \033[31;1mÍ£ÓÃ\033[000m"<<endl;
-		cout<<"0         »Ò"<<endl;
-		cout<<"1         ºì"<<endl;
-		cout<<"2         ÂÌ"<<endl;
-		cout<<"3         »Æ"<<endl;
-		cout<<"4         À¶"<<endl;
-		cout<<"5         ×Ï"<<endl;
-		cout<<"6         Çà"<<endl;
-		return;
-	}
-	if(s=="normal"){
-		c_normal;
-		colorset=s;
-		return;
-	}else if(s=="hide"||s=="show"){
-		cout<<"\033[31;1mÃüÁîÒÑÍ£ÓÃ\033[000m"<<endl;
-		return;
-	}
-	switch(s[0]){
-	case '0':
-		colorset=s;
-		f_grey;
-		break;
-	case '1':
-		colorset=s;
-		f_red;
-		break;
-	case '2':
-		colorset=s;
-		f_green;
-		break;
-	case '3':
-		colorset=s;
-		f_yellow;
-		break;
-	case '4':
-		colorset=s;
-		f_blue;
-		break;
-	case '5':
-		colorset=s;
-		f_purple;
-		break;
-	case '6':
-		colorset=s;
-		f_cyan;
-		break;
-	default:
-		cout<<"Error!"<<endl;
-	}
+    if(s=="help"){
+        cout<<"Linux:  è¾“å…¥"<<endl;
+        cout<<"normal  é»˜è®¤"<<endl;
+        cout<<"hide    \033[31;1måœç”¨\033[000m"<<endl;
+        cout<<"show    \033[31;1måœç”¨\033[000m"<<endl;
+        cout<<"0         ç°"<<endl;
+        cout<<"1         çº¢"<<endl;
+        cout<<"2         ç»¿"<<endl;
+        cout<<"3         é»„"<<endl;
+        cout<<"4         è“"<<endl;
+        cout<<"5         ç´«"<<endl;
+        cout<<"6         é’"<<endl;
+        return;
+    }
+    if(s=="normal"){
+        c_normal;
+        colorset=s;
+        return;
+    }else if(s=="hide"||s=="show"){
+        cout<<"\033[31;1må‘½ä»¤å·²åœç”¨\033[000m"<<endl;
+        return;
+    }
+    switch(s[0]){
+        case '0':
+            colorset=s;
+            f_grey;
+            break;
+        case '1':
+            colorset=s;
+            f_red;
+            break;
+        case '2':
+            colorset=s;
+            f_green;
+            break;
+        case '3':
+            colorset=s;
+            f_yellow;
+            break;
+        case '4':
+            colorset=s;
+            f_blue;
+            break;
+        case '5':
+            colorset=s;
+            f_purple;
+            break;
+        case '6':
+            colorset=s;
+            f_cyan;
+            break;
+        default:
+            cout<<"Error!"<<endl;
+    }
 }
 void cls(){
-	clear;
-	if(colorset=="normal"){
-		//ÎŞ²Ù×÷(ÍË³öº¯Êı)
-	}else{
-		color(colorset);
-	}
+    clear;
+    if(colorset=="normal"){
+        //æ— æ“ä½œ(é€€å‡ºå‡½æ•°)
+    }else{
+        color(colorset);
+    }
 }
 #define cls cls()
 #endif
 //=======end=======
-//==unistd²»¿ÉÓÃ?==
+//==unistdä¸å¯ç”¨?==
 #ifndef UNISTD_H
-extern "C" int usleep(useconds_t __useconds);//unistd.hµÄusleepĞŞ¸´
+extern "C" int usleep(useconds_t __useconds);//unistd.hçš„usleepä¿®å¤
 #endif
 //=======end=======
 #define Utc 8
@@ -277,96 +160,96 @@ extern "C" int usleep(useconds_t __useconds);//unistd.hµÄusleepĞŞ¸´
 #define GT_MIN 0x000004
 #define GT_SEC 0x000005
 #define HelloMain main
-/*---------------±äÁ¿Çø---------------*/
+/*---------------å˜é‡åŒº---------------*/
 int ver=0;
 char* path;
 string user,passwd="ZZM@20090309",passdev="text";
 char Where[4][22]={
-	"H:\%-# ",
-	"H:\%System-# ",
-	"H:\%Software-# ",
-	"H:\%Software\%Dos-# ",
+    "H:\%-# ",
+    "H:\%System-# ",
+    "H:\%Software-# ",
+    "H:\%Software\%Dos-# ",
 };
 int x=31,y=45;
 char hlp[31][45]={
-	"---------------help---------------",
-	"ABOUT                         ¹ØÓÚ",
-	"BASIC                 ½øÈë±ê×¼Ä£Ê½",
-	"BREAK                   ÍË³öÎÄ¼ş¼Ğ",
-	"CD                      ½øÈëÎÄ¼ş¼Ğ",
-	"CHGPASS         ¸ü¸ÄÃÜÂë(½ö¹ÜÀíÔ±)",
-	"CHGUSER                 ¸ü¸ÄÓÃ»§Ãû",
-	"CHKVER                    ¼ì²â°æ±¾",
-	"CLS/CLEAR                     ÇåÆÁ",
-	"CLOSE                         ¹Ø»ú",
-	"COLOR                     ¸ü¸ÄÑÕÉ«",
-	"COP                       ²é¿´°æÈ¨",
-	"DIR                ÏÔÊ¾HÅÌËùÓĞÎÄ¼ş",
-	"DOS             DOSÄ£Ê½(½öWindows)",
-	"HELP                          °ïÖú",
-	"I                       ²é¿´ÓÃ»§Ãû",
-	"INSYS               ½øÈëÏµÍ³ÎÄ¼ş¼Ğ",
-	"JAVA              ±àĞ´JAVA(²»¿ÉÓÃ)",
-	"FORMAT                      ¸ñÊ½»¯",
-	"LOGOFF                    ×¢ÏúÓÃ»§",
-	"OPEN                  ´ò¿ªÎÄ±¾ÎÄ¼ş",
-	"PY              ±àĞ´python(²»¿ÉÓÃ)",
-	"RUN                           ´ò¿ª",
-	"REBOOT                        ÖØÆô",
-	"STORE                   HelloStore",
-	"SYSTEM                       ABOUT",
-	"TIME                      »ñÈ¡Ê±¼ä",
-	"TREE                  ²é¿´´ÅÅÌ¿Õ¼ä",
-	"VERSION/VER           ²é¿´ÏµÍ³°æ±¾",
-	"VIRUS                     ¼ì²â²¡¶¾",
-	"----------------------------------"
+    "---------------help---------------",
+    "ABOUT                         å…³äº",
+    "BASIC                 è¿›å…¥æ ‡å‡†æ¨¡å¼",
+    "BREAK                   é€€å‡ºæ–‡ä»¶å¤¹",
+    "CD                      è¿›å…¥æ–‡ä»¶å¤¹",
+    "CHGPASS         æ›´æ”¹å¯†ç (ä»…ç®¡ç†å‘˜)",
+    "CHGUSER                 æ›´æ”¹ç”¨æˆ·å",
+    "CHKVER                    æ£€æµ‹ç‰ˆæœ¬",
+    "CLS/CLEAR                     æ¸…å±",
+    "CLOSE                         å…³æœº",
+    "COLOR                     æ›´æ”¹é¢œè‰²",
+    "COP                       æŸ¥çœ‹ç‰ˆæƒ",
+    "DIR                æ˜¾ç¤ºHç›˜æ‰€æœ‰æ–‡ä»¶",
+    "DOS             DOSæ¨¡å¼(ä»…Windows)",
+    "HELP                          å¸®åŠ©",
+    "I                       æŸ¥çœ‹ç”¨æˆ·å",
+    "INSYS               è¿›å…¥ç³»ç»Ÿæ–‡ä»¶å¤¹",
+    "JAVA              ç¼–å†™JAVA(ä¸å¯ç”¨)",
+    "FORMAT                      æ ¼å¼åŒ–",
+    "LOGOFF                    æ³¨é”€ç”¨æˆ·",
+    "OPEN                  æ‰“å¼€æ–‡æœ¬æ–‡ä»¶",
+    "PY                      ç¼–å†™python",
+    "RUN                           æ‰“å¼€",
+    "REBOOT                        é‡å¯",
+    "STORE                   HelloStore",
+    "SYSTEM                       ABOUT",
+    "TIME                      è·å–æ—¶é—´",
+    "TREE                  æŸ¥çœ‹ç£ç›˜ç©ºé—´",
+    "VERSION/VER           æŸ¥çœ‹ç³»ç»Ÿç‰ˆæœ¬",
+    "VIRUS                     æ£€æµ‹ç—…æ¯’",
+    "----------------------------------"
 };
 int ax=13,ay=45;
 char aboutsys[13][45]={
-	"----------About System----------",
-	"        ----[]        []        ",
-	"            []        []        ",
-	"        ----[][][][][][]        ",
-	"            []        []        ",
-	"            []        []        ",
-	"        ----[]<><><><>[]        ",
-	"HelloOS System 1.0 D30M8Y22     ",
-	"²Ù×÷ÏµÍ³ÄÚ²¿°æ±¾[300822.4329]   ",//ver
-	"HelloOS ÆÕÍ¨°æ ",
-	"ÄÚºË:HelloNT 1.0                ",
-	"--------------------------------"
+    "----------About System----------",
+    "        ----[]        []        ",
+    "            []        []        ",
+    "        ----[][][][][][]        ",
+    "            []        []        ",
+    "            []        []        ",
+    "        ----[]<><><><>[]        ",
+    "HelloOS System 1.0 D30M8Y22     ",
+    "æ“ä½œç³»ç»Ÿå†…éƒ¨ç‰ˆæœ¬[300822.4329]   ",//ver
+    "HelloOS æ™®é€šç‰ˆ ",
+    "å†…æ ¸:HelloNT 1.0                ",
+    "--------------------------------"
 };
 int cx=10,cy=21;
 char corp[10][21]={
-	"-----Copiright------",
-	"    []        []    ",
-	"   []        []     ",
-	"  []        []      ",
-	"   [][][][][][]     ",
-	"    []        []    ",
-	"     []        []   ",
-	"    []        []    ",
-	"(c) 2022 HelloOSMe  ",
-	"--------------------"
+    "-----Copiright------",
+    "    []        []    ",
+    "   []        []     ",
+    "  []        []      ",
+    "   [][][][][][]     ",
+    "    []        []    ",
+    "     []        []   ",
+    "    []        []    ",
+    "(c) 2022 HelloOSMe  ",
+    "--------------------"
 };
 int wr=0;
 bool basic=0,jiami=0;
 short admin=0;
-/*------------Ô¤¶¨Òåº¯ÊıÇø------------*/
-/**¹²21¸öº¯Êı**/
+/*------------é¢„å®šä¹‰å‡½æ•°åŒº------------*/
+/**å…±21ä¸ªå‡½æ•°**/
 int GetTimes(int lei);
 string GetCmd(string str,int num);
-void loading(int num);//Loading¶¯»­
+void loading(int num);//LoadingåŠ¨ç”»
 void nlogo(int space);
 void Logo();
 void logo();
-void root();//½¨Á¢ĞéÄâÇı¶¯
+void root();//å»ºç«‹è™šæ‹Ÿé©±åŠ¨
 void newload(int num);
-void Start();//¿ª»ú
+void Start();//å¼€æœº
 void Welcome();
 string bts(string str);
-void users();//ÓÃ»§£¬ÄãºÃ
-void where(int a);//ÅÌ·û
+void users();//ç”¨æˆ·ï¼Œä½ å¥½
+void where(int a);//ç›˜ç¬¦
 void close();
 void PrintTime();
 void DOSES();
@@ -380,1115 +263,1156 @@ void jihuo();
 void readfile(char filename[]);
 void run(string mingling);
 void input();
-/*---------------´Îº¯ÊıÇø---------------*/
+/*---------------æ¬¡å‡½æ•°åŒº---------------*/
 void run(string mingling){
-	int a,b,c;
-	string str=mingling;
-	mingling=bts(mingling);
-	mingling=GetCmd(mingling,0);
-	str=GetCmd(str,0);
-	if(mingling=="help"){
-		for(a=0;a<x;a++){
-			for(b=0;b<y;b++){
-				cout<<hlp[a][b];
-			}
-			cout<<endl;
-		}
-		if(basic){
-			cout<<"DOS HELPS:"<<endl;
-			system("help");
-			cout<<"----------------------------------"<<endl;
-		}
-	}else if(mingling=="about"||mingling=="system"){
-		for(a=0;a<ax;a++){
-			for(b=0;b<ay;b++){
-				cout<<aboutsys[a][b];
-			}
-			cout<<endl;
-		}
-	}else if(mingling=="basic"){
-		if(basic==0){
-			cout<<"-----HelloOS Dos Basic-----"<<endl;
-			basic=1;
-			Basic();
-		}else{
-			cout<<"---------End Basic---------"<<endl;
-			basic=0;
-		}
-	}else if(mingling=="break"){
-		if(wr==0){
-			cout<<"ÕâÒÑÊÇH´ÅÅÌ!"<<endl;
-		}else if(wr==3){
-			wr=2;
-		}else{
-			wr=0;
-		}
-	}else if(mingling=="chguser"){
-		cout<<"--------ÓÃ»§ÃûÉèÖÃ---------"<<endl;
-		string pass,userses;
-		cout<<"¸ü¸ÄÓÃ»§Ãû£º";
-		cin>>userses;
-		if(user==userses){
-			cout<<"ÓÃ»§ÃûÒ»ÖÂ£¡"<<endl;
-			cout<<"---------------------------"<<endl;
-			return;
-		}
-		if(userses=="Admin"){
-			for(int e=9;;){
-				cout<<"ÊäÈëÃÜÂë(exitÍË³ö):";
-				cin>>pass;
-				if(pass==passwd){
-					admin=1;
-					jiami=1;
-					user=userses;
-					break;
-				}else if(pass=="exit"){
-					jiami=0;
-					user="Ä¬ÈÏuser";
-					break;
-				}else if(e!=1&&e<=6){
-					e--;
-					cls;
-					cout<<"*ÃÜÂë´íÎó!\nÄã»¹ÓĞ"<<e<<"´Î»ú»á¡£ÇëÖØĞÂ";
-				}else if(e>6){
-					e--;
-					cls;
-					cout<<"*ÃÜÂë´íÎó!\nÇëÖØĞÂ";
-				}else if(e==1){
-					cout<<"ÃÜÂë´íÎó5´Î£¬ÖÕÖ¹ÈÏÖ¤¡£"<<endl;
-					Sleep(3000);
-					jiami=0;
-					user="Ä¬ÈÏuser";
-					break;
-				}
-			}
-			cls;
-		}else if(userses=="Dev"){
-			for(int e=9;;){
-				cout<<"ÊäÈëÃÜÂë(exitÍË³ö):";
-				cin>>pass;
-				if(pass==passdev){
-					admin=1;jiami=1;
-					user=userses;
-					break;
-				}else if(pass=="exit"){
-					user="Ä¬ÈÏuser";jiami=0;
-					break;
-				}else if(e!=1&&e<=6){
-					e--;
-					cls;
-					cout<<"*ÃÜÂë´íÎó!\nÄã»¹ÓĞ"<<e<<"´Î»ú»á¡£ÇëÖØĞÂ";
-				}else if(e>6){
-					e--;
-					cls;
-					cout<<"*ÃÜÂë´íÎó!\nÇëÖØĞÂ";
-				}else if(e==1){
-					cout<<"ÃÜÂë´íÎó5´Î£¬ÖÕÖ¹ÈÏÖ¤¡£"<<endl;
-					Sleep(3000);jiami=0;
-					user="Ä¬ÈÏuser";
-					break;
-				}
-			}
-			cls;
-		}else{
-			user=userses;
-			jiami=0;
-			admin=0;
-		}
-		cout<<"Downloading Files ";
-		loading(24);
-		cout<<endl<<"¸ü¸ÄÍê³É,"<<user<<endl;
-		cout<<"---------------------------"<<endl;
-	}else if(mingling=="cls"||mingling=="clear"){
-		cls;
-	}else if(mingling=="close"){
-		free(path);
-		close();
-		exit(0);
-	}else if(mingling=="dir"){
-		cout<<"-----------dir------------"<<endl;
-		cout<<"H"<<endl;
-		cout<<"|-System"<<endl;
-		cout<<"| |-HelloOS.sys"<<endl;
-		cout<<"| |-Start.sys"<<endl;
-		cout<<"| |-User.sys"<<endl;
-		cout<<"| |-Run.sys"<<endl;
-		cout<<"| |-runsys.hexe"<<endl;
-		cout<<"| |-runsys.hdll"<<endl;
-		cout<<"| |-runhdll.hexe"<<endl;
-		cout<<"| |-HelloStore.hexe"<<endl;
-		cout<<"|-Software"<<endl;
-		cout<<"  |-Dos"<<endl;
-		cout<<"  | |-Dos.hexe"<<endl;
-		cout<<"  | |-Dos.hdll"<<endl;
-		cout<<"  |-HelloAntiVirus.hexe"<<endl;
-		if(jiami==1){
-			cout<<"  |-HelloEncrypt.hexe"<<endl;
-		}
-		cout<<"--------------------------"<<endl;
-	}else if(mingling=="dos"){
-		DOSES();
-	}else if(mingling=="cd"){
-		cout<<"--------ÎÄ¼ş¼Ğ½øÈë---------"<<endl;
-		if(wr==0){
-			cout<<"Ñ¡ÔñÎÄ¼ş¼Ğ:System"<<endl;
-			cout<<"           Software"<<endl;
-			cin>>str;
-			if(str=="System"){
-				wr=1;
-			}else if(str=="Software"){
-				wr=2;
-			}else{
-				cout<<"Ã»ÓĞ´ËÎÄ¼ş¼Ğ!"<<endl;
-			}
-		}else if(wr==2){
-			cout<<"Ñ¡ÔñÎÄ¼ş¼Ğ:Dos"<<endl;
-			cin>>str;
-			if(str=="Dos"){
-				wr=3;
-			}else{
-				cout<<"Ã»ÓĞ´ËÎÄ¼ş¼Ğ!"<<endl;
-			}
-		}else if(wr==5){
-			cout<<"È¨ÏŞ²»¹»£¬ÎŞ·¨²é¿´ËŞÖ÷ÏµÍ³ÎÄ¼ş"<<endl;
-		}else{
-			cout<<"Ã»ÓĞÎÄ¼ş¼Ğ!"<<endl;
-		}
-		cout<<"---------------------------"<<endl;
-	}else if(mingling=="i"){
-		cout<<"--------ÓÃ»§Ãû²é¿´---------"<<endl;
-		cout<<"ÓÃ»§Ãû:"<<user<<endl;
-		cout<<"---------------------------"<<endl;
-	}else if(mingling=="java"){
-		cout<<"ÃüÁî²»¿ÉÓÃ!"<<endl;
-	}else if(mingling=="py"){
-		system("python");
-	}else if(mingling=="run"){
-		cout<<"-----------´ò¿ª------------"<<endl;
-		cout<<"ÎÄ¼şÃû:";
-		char fn[100];
-		cin>>fn;
-		if(wr==2){
-			if(fn=="HelloAntiVirus.hexe"){
-				cout<<"---------------------------"<<endl;
-				HAV();
-			}else if(fn=="HelloEncrypt.hexe"&&jiami==1){
-				cout<<"---------------------------"<<endl;
-				Encrypt();
-			}else{
-				cout<<"ÎŞ´ËÎÄ¼ş£¡"<<endl;
-				cout<<"---------------------------"<<endl;
-			}
-		}else if(wr==1){
-			if(fn=="HelloOS.sys"||fn=="Start.sys"||fn=="User.sys"||fn=="Run.sys"){
-				cout<<"ÏµÍ³ÎÄ¼şÎŞ·¨²é¿´!"<<endl;
-				cout<<"---------------------------"<<endl;
-			}else if(fn=="runsys.hexe"||fn=="runhdll.hexe"){
-				cout<<"Ó¦ÓÃÃ»ÓĞÊäÈëÎÄ¼ş£¡"<<endl;
-				cout<<"---------------------------"<<endl;
-			}else if(fn=="runsys.hdll"){
-				cout<<"Ó¦ÓÃÀ©Õ¹ÎÄ¼şÎŞ·¨²é¿´£¡"<<endl;
-				cout<<"---------------------------"<<endl;
-			}else if(fn=="HelloStore.hexe"){
-				cout<<"---------------------------"<<endl;
-				HelloStore();
-			}else{
-				cout<<"ÎŞ´ËÎÄ¼ş£¡"<<endl;
-				cout<<"---------------------------"<<endl;
-			}
-		}else if(wr==3){
-			if(fn=="Dos.hexe"){
-				cout<<"---------------------------"<<endl;
-				DOSES();
-			}else if(fn=="Dos.hdll"){
-				cout<<"Ó¦ÓÃÀ©Õ¹ÎÄ¼şÎŞ·¨²é¿´£¡"<<endl;
-				cout<<"---------------------------"<<endl;
-			}else{
-				cout<<"ÎŞ´ËÎÄ¼ş£¡"<<endl;
-				cout<<"---------------------------"<<endl;
-			}
-		}else{
-			system(fn);
-			cout<<"---------------------------"<<endl;
-		}
-	}else if(mingling=="reboot"){
-		free(path);
-		close();
-		cls;
-		Sleep(4291);
-		Start();//¿ª»ú
-		Welcome();//ÓÃ»§£¬ÄãºÃ
-		cout<<"ÊäÈë<help>»ñÈ¡°ïÖú¡£"<<endl;
-	}else if(mingling=="ver"||mingling=="version"){
-		cout<<"----------ÏµÍ³°æ±¾-----------"<<endl;
-		cout<<"HelloOS System 1.0 D30M8Y22  "<<endl;
-		cout<<"²Ù×÷ÏµÍ³ÄÚ²¿°æ±¾[300822.4329]"<<endl;//Èô¸Ä±ä£¬aboutÒ²Òª¸ü¸Ä
-		cout<<"-----------------------------"<<endl;
-	}else if(mingling=="chgpass"){
-		cout<<"---------ÃÜÂëÉèÖÃ----------"<<endl;
-		if(admin==1){
-			string pass;
-			for(int e=9;;){
-				cout<<"ÊäÈëÃÜÂë(exitÍË³ö):";
-				cin>>pass;
-				if(pass==passwd){
-					cout<<"ÊäÈëĞÂÃÜÂë:";
-					cin>>passwd;
-					cls;
-					cout<<"¸ü¸Ä³É¹¦£¡"<<endl;
-					break;
-				}else if(pass=="exit"){
-					cout<<"---------------------------"<<endl;
-					return;
-				}else if(e!=1&&e<=6){
-					e--;
-					cls;
-					cout<<"*ÃÜÂë´íÎó!\nÄã»¹ÓĞ"<<e<<"´Î»ú»á¡£ÇëÖØĞÂ";
-				}else if(e>6){
-					e--;
-					cls;
-					cout<<"*ÃÜÂë´íÎó!\nÇëÖØĞÂ";
-				}else if(e==1){
-					cout<<"ÃÜÂë´íÎó5´Î£¬ÖÕÖ¹ÈÏÖ¤¡£"<<endl;
-					cout<<"---------------------------"<<endl;
-					return;
-				}
-			}
-			cls;
-		}else if(admin==2||user=="Dev"){
-			string pass;
-			for(int e=9;;){
-				cout<<"ÊäÈëÃÜÂë(exitÍË³ö):";
-				cin>>pass;
-				if(pass==passdev){
-					cout<<"ÊäÈëĞÂÃÜÂë:";
-					cin>>passdev;
-					cls;
-					cout<<"¸ü¸Ä³É¹¦£¡"<<endl;
-					break;
-				}else if(pass=="exit"){
-					cout<<"---------------------------"<<endl;
-					return;
-				}else if(e!=1&&e<=6){
-					e--;
-					cls;
-					cout<<"*ÃÜÂë´íÎó!\nÄã»¹ÓĞ"<<e<<"´Î»ú»á¡£ÇëÖØĞÂ";
-				}else if(e>6){
-					e--;
-					cls;
-					cout<<"*ÃÜÂë´íÎó!\nÇëÖØĞÂ";
-				}else if(e==1){
-					cout<<"ÃÜÂë´íÎó5´Î£¬ÖÕÖ¹ÈÏÖ¤¡£"<<endl;
-					cout<<"---------------------------"<<endl;
-					return;
-				}
-			}
-			cls;
-		}else{
-			cout<<"Äú²»ÊÇ¹ÜÀíÔ±!\n";
-		}
-		cout<<"---------------------------"<<endl;
-	}else if(mingling=="virus"){
-		HAV();
-	}else if(mingling=="format"){
-		kill();
-		root();//½¨Á¢ĞéÄâÇı¶¯
-		Start();//¿ª»ú
-		users();//´´½¨ÓÃ»§
-		Welcome();//ÓÃ»§£¬ÄãºÃ
-		cout<<"ÊäÈë<help>»ñÈ¡°ïÖú¡£"<<endl;
-		return;
-	}else if(mingling=="tree"){
-		cout<<"------------tree------------"<<endl;
-		cout<<"´ÅÅÌ    ¿ÉÓÃ¿Õ¼ä    ÒÑÓÃ¿Õ¼ä"<<endl;
-		cout<<"H:\\     10MB        2MB     "<<endl;
-		cout<<"----------------------------"<<endl;
-	}else if(mingling=="cop"){
-		for(a=0;a<cx;a++){
-			for(b=0;b<cy;b++){
-				cout<<corp[a][b];
-			}
-			cout<<endl;
-		}
-	}else if(mingling=="logoff"){
-		cls;
-		users();
-		Welcome();//ÓÃ»§£¬ÄãºÃ
-		cout<<"ÊäÈë<help>»ñÈ¡°ïÖú¡£"<<endl;
-		wr=0;
-	}else if(mingling=="store"){
-		HelloStore();
-	}else if(mingling=="chkver"){
-		HelloUpdata();
-	}else if(mingling=="time"){
-		PrintTime();
-	}else if(mingling=="color"){
-		cout<<"----------¸öĞÔ»¯----------"<<endl;
-		cout<<"COLOR>";
-		string colors;
-		cin>>colors;
-		color(colors);
-		cout<<"--------------------------"<<endl;
-	}else if(mingling=="insys"){
-		cout<<"---------ËŞÖ÷ÏµÍ³ÎÄ¼ş---------"<<endl;
-		cout<<"back»Øµ½HelloOS"<<endl;
-		cout<<">>>"; 
-		string s;
-		int b=false;
-		char sys[500]={'\0'};
-		getline(cin,s);
-		if(s=="back"){
-			wr=0;
-		}else{
-			for(int i=0;i<s.size();i++){
-				sys[i]=s[i];
-			}
-			b=chdir(sys);
-			if(b==-1){
-				cout<<'\"'<<sys<<"\"Ä¿Â¼Ãû´íÎó£¡"<<endl;
-			}else{
-				wr=5;
-			}
-		}
-		cout<<"------------------------------"<<endl;
-	}else if(mingling=="open"){
-		cout<<"-----------²é¿´ÎÄ±¾-----------"<<endl;
-		cout<<"ÊäÈëÎÄ¼şÃû>> ";
-		char ch[1000];
-		cin>>ch;
-		readfile(ch);
-		cout<<"------------------------------"<<endl;
-	}else if(mingling=="\0"){
-		//¿Õ
-	}else{
-		if(basic){
-			char ch[1000],j;
-			int len=str.size();
-			for(int i=0;i<1000;i++){
-				if(i<len){
-					j=str[i];
-					ch[i]=j;
-				}else{
-					ch[i]='\0';
-				}
-			}
-			system(ch);
-		}else{
-			cout<<"\""<<str<<"\"¼È²»ÊÇÃüÁî,Ò²²»ÊÇ¿ÉÖ´ĞĞÎÄ¼ş»òÅú´¦ÀíÎÄ¼ş"<<endl;
-		}
-	}
-}//Ö´ĞĞ
+    int a,b,c;
+    string str=mingling;
+    mingling=bts(mingling);
+    mingling=GetCmd(mingling,0);
+    str=GetCmd(str,0);
+    if(mingling=="help"){
+        for(a=0;a<x;a++){
+            for(b=0;b<y;b++){
+                cout<<hlp[a][b];
+            }
+            cout<<endl;
+        }
+        if(basic){
+            cout<<"DOS HELPS:"<<endl;
+            system("help");
+            cout<<"----------------------------------"<<endl;
+        }
+    }else if(mingling=="about"||mingling=="system"){
+        for(a=0;a<ax;a++){
+            for(b=0;b<ay;b++){
+                cout<<aboutsys[a][b];
+            }
+            cout<<endl;
+        }
+    }else if(mingling=="basic"){
+        if(basic==0){
+            cout<<"-----HelloOS Dos Basic-----"<<endl;
+            basic=1;
+            Basic();
+        }else{
+            cout<<"---------End Basic---------"<<endl;
+            basic=0;
+        }
+    }else if(mingling=="break"){
+        if(wr==0){
+            cout<<"è¿™å·²æ˜¯Hç£ç›˜!"<<endl;
+        }else if(wr==3){
+            wr=2;
+        }else{
+            wr=0;
+        }
+    }else if(mingling=="chguser"){
+        cout<<"--------ç”¨æˆ·åè®¾ç½®---------"<<endl;
+        string pass,userses;
+        cout<<"æ›´æ”¹ç”¨æˆ·åï¼š";
+        cin>>userses;
+        if(user==userses){
+            cout<<"ç”¨æˆ·åä¸€è‡´ï¼"<<endl;
+            cout<<"---------------------------"<<endl;
+            return;
+        }
+        if(userses=="Admin"){
+            for(int e=9;;){
+                cout<<"è¾“å…¥å¯†ç (exité€€å‡º):";
+                cin>>pass;
+                if(pass==passwd){
+                    admin=1;
+                    jiami=1;
+                    user=userses;
+                    break;
+                }else if(pass=="exit"){
+                    jiami=0;
+                    user="é»˜è®¤user";
+                    break;
+                }else if(e!=1&&e<=6){
+                    e--;
+                    cls;
+                    cout<<"*å¯†ç é”™è¯¯!\nä½ è¿˜æœ‰"<<e<<"æ¬¡æœºä¼šã€‚è¯·é‡æ–°";
+                }else if(e>6){
+                    e--;
+                    cls;
+                    cout<<"*å¯†ç é”™è¯¯!\nè¯·é‡æ–°";
+                }else if(e==1){
+                    cout<<"å¯†ç é”™è¯¯5æ¬¡ï¼Œç»ˆæ­¢è®¤è¯ã€‚"<<endl;
+                    Sleep(3000);
+                    jiami=0;
+                    user="é»˜è®¤user";
+                    break;
+                }
+            }
+            cls;
+        }else if(userses=="Dev"){
+            for(int e=9;;){
+                cout<<"è¾“å…¥å¯†ç (exité€€å‡º):";
+                cin>>pass;
+                if(pass==passdev){
+                    admin=1;jiami=1;
+                    user=userses;
+                    break;
+                }else if(pass=="exit"){
+                    user="é»˜è®¤user";jiami=0;
+                    break;
+                }else if(e!=1&&e<=6){
+                    e--;
+                    cls;
+                    cout<<"*å¯†ç é”™è¯¯!\nä½ è¿˜æœ‰"<<e<<"æ¬¡æœºä¼šã€‚è¯·é‡æ–°";
+                }else if(e>6){
+                    e--;
+                    cls;
+                    cout<<"*å¯†ç é”™è¯¯!\nè¯·é‡æ–°";
+                }else if(e==1){
+                    cout<<"å¯†ç é”™è¯¯5æ¬¡ï¼Œç»ˆæ­¢è®¤è¯ã€‚"<<endl;
+                    Sleep(3000);jiami=0;
+                    user="é»˜è®¤user";
+                    break;
+                }
+            }
+            cls;
+        }else{
+            user=userses;
+            jiami=0;
+            admin=0;
+        }
+        cout<<"Downloading Files ";
+        loading(24);
+        cout<<endl<<"æ›´æ”¹å®Œæˆ,"<<user<<endl;
+        cout<<"---------------------------"<<endl;
+    }else if(mingling=="cls"||mingling=="clear"){
+        cls;
+    }else if(mingling=="close"){
+        free(path);
+        close();
+        exit(0);
+    }else if(mingling=="dir"){
+        cout<<"-----------dir------------"<<endl;
+        cout<<"H"<<endl;
+        cout<<"|-System"<<endl;
+        cout<<"| |-HelloOS.sys"<<endl;
+        cout<<"| |-Start.sys"<<endl;
+        cout<<"| |-User.sys"<<endl;
+        cout<<"| |-Run.sys"<<endl;
+        cout<<"| |-runsys.hexe"<<endl;
+        cout<<"| |-runsys.hdll"<<endl;
+        cout<<"| |-runhdll.hexe"<<endl;
+        cout<<"| |-HelloStore.hexe"<<endl;
+        cout<<"|-Software"<<endl;
+        cout<<"  |-Dos"<<endl;
+        cout<<"  | |-Dos.hexe"<<endl;
+        cout<<"  | |-Dos.hdll"<<endl;
+        cout<<"  |-HelloAntiVirus.hexe"<<endl;
+        if(jiami==1){
+            cout<<"  |-HelloEncrypt.hexe"<<endl;
+        }
+        cout<<"--------------------------"<<endl;
+    }else if(mingling=="dos"){
+        DOSES();
+    }else if(mingling=="cd"){
+        cout<<"--------æ–‡ä»¶å¤¹è¿›å…¥---------"<<endl;
+        if(wr==0){
+            cout<<"é€‰æ‹©æ–‡ä»¶å¤¹:System"<<endl;
+            cout<<"           Software"<<endl;
+            cin>>str;
+            if(str=="System"){
+                wr=1;
+            }else if(str=="Software"){
+                wr=2;
+            }else{
+                cout<<"æ²¡æœ‰æ­¤æ–‡ä»¶å¤¹!"<<endl;
+            }
+        }else if(wr==2){
+            cout<<"é€‰æ‹©æ–‡ä»¶å¤¹:Dos"<<endl;
+            cin>>str;
+            if(str=="Dos"){
+                wr=3;
+            }else{
+                cout<<"æ²¡æœ‰æ­¤æ–‡ä»¶å¤¹!"<<endl;
+            }
+        }else if(wr==5){
+            cout<<"æƒé™ä¸å¤Ÿï¼Œæ— æ³•æŸ¥çœ‹å®¿ä¸»ç³»ç»Ÿæ–‡ä»¶"<<endl;
+        }else{
+            cout<<"æ²¡æœ‰æ–‡ä»¶å¤¹!"<<endl;
+        }
+        cout<<"---------------------------"<<endl;
+    }else if(mingling=="i"){
+        cout<<"--------ç”¨æˆ·åæŸ¥çœ‹---------"<<endl;
+        cout<<"ç”¨æˆ·å:"<<user<<endl;
+        cout<<"---------------------------"<<endl;
+    }else if(mingling=="java"){
+        cout<<"å‘½ä»¤ä¸å¯ç”¨!"<<endl;
+    }else if(mingling=="py"){
+        system("python");
+    }else if(mingling=="run"){
+        cout<<"-----------æ‰“å¼€------------"<<endl;
+        cout<<"æ–‡ä»¶å:";
+        char fn[100];
+        cin>>fn;
+        if(wr==2){
+            if(fn=="HelloAntiVirus.hexe"){
+                cout<<"---------------------------"<<endl;
+                HAV();
+            }else if(fn=="HelloEncrypt.hexe"&&jiami==1){
+                cout<<"---------------------------"<<endl;
+                Encrypt();
+            }else{
+                cout<<"æ— æ­¤æ–‡ä»¶ï¼"<<endl;
+                cout<<"---------------------------"<<endl;
+            }
+        }else if(wr==1){
+            if(fn=="HelloOS.sys"||fn=="Start.sys"||fn=="User.sys"||fn=="Run.sys"){
+                cout<<"ç³»ç»Ÿæ–‡ä»¶æ— æ³•æŸ¥çœ‹!"<<endl;
+                cout<<"---------------------------"<<endl;
+            }else if(fn=="runsys.hexe"||fn=="runhdll.hexe"){
+                cout<<"åº”ç”¨æ²¡æœ‰è¾“å…¥æ–‡ä»¶ï¼"<<endl;
+                cout<<"---------------------------"<<endl;
+            }else if(fn=="runsys.hdll"){
+                cout<<"åº”ç”¨æ‰©å±•æ–‡ä»¶æ— æ³•æŸ¥çœ‹ï¼"<<endl;
+                cout<<"---------------------------"<<endl;
+            }else if(fn=="HelloStore.hexe"){
+                cout<<"---------------------------"<<endl;
+                HelloStore();
+            }else{
+                cout<<"æ— æ­¤æ–‡ä»¶ï¼"<<endl;
+                cout<<"---------------------------"<<endl;
+            }
+        }else if(wr==3){
+            if(fn=="Dos.hexe"){
+                cout<<"---------------------------"<<endl;
+                DOSES();
+            }else if(fn=="Dos.hdll"){
+                cout<<"åº”ç”¨æ‰©å±•æ–‡ä»¶æ— æ³•æŸ¥çœ‹ï¼"<<endl;
+                cout<<"---------------------------"<<endl;
+            }else{
+                cout<<"æ— æ­¤æ–‡ä»¶ï¼"<<endl;
+                cout<<"---------------------------"<<endl;
+            }
+        }else{
+            system(fn);
+            cout<<"---------------------------"<<endl;
+        }
+    }else if(mingling=="reboot"){
+        free(path);
+        close();
+        cls;
+        Sleep(4291);
+        Start();//å¼€æœº
+        Welcome();//ç”¨æˆ·ï¼Œä½ å¥½
+        cout<<"è¾“å…¥<help>è·å–å¸®åŠ©ã€‚"<<endl;
+    }else if(mingling=="ver"||mingling=="version"){
+        cout<<"----------ç³»ç»Ÿç‰ˆæœ¬-----------"<<endl;
+        cout<<"HelloOS System 1.0 D30M8Y22  "<<endl;
+        cout<<"æ“ä½œç³»ç»Ÿå†…éƒ¨ç‰ˆæœ¬[300822.4329]"<<endl;//è‹¥æ”¹å˜ï¼Œaboutä¹Ÿè¦æ›´æ”¹
+        cout<<"-----------------------------"<<endl;
+    }else if(mingling=="chgpass"){
+        cout<<"---------å¯†ç è®¾ç½®----------"<<endl;
+        if(admin==1){
+            string pass;
+            for(int e=9;;){
+                cout<<"è¾“å…¥å¯†ç (exité€€å‡º):";
+                cin>>pass;
+                if(pass==passwd){
+                    cout<<"è¾“å…¥æ–°å¯†ç :";
+                    cin>>passwd;
+                    cls;
+                    cout<<"æ›´æ”¹æˆåŠŸï¼"<<endl;
+                    break;
+                }else if(pass=="exit"){
+                    cout<<"---------------------------"<<endl;
+                    return;
+                }else if(e!=1&&e<=6){
+                    e--;
+                    cls;
+                    cout<<"*å¯†ç é”™è¯¯!\nä½ è¿˜æœ‰"<<e<<"æ¬¡æœºä¼šã€‚è¯·é‡æ–°";
+                }else if(e>6){
+                    e--;
+                    cls;
+                    cout<<"*å¯†ç é”™è¯¯!\nè¯·é‡æ–°";
+                }else if(e==1){
+                    cout<<"å¯†ç é”™è¯¯5æ¬¡ï¼Œç»ˆæ­¢è®¤è¯ã€‚"<<endl;
+                    cout<<"---------------------------"<<endl;
+                    return;
+                }
+            }
+            cls;
+        }else if(admin==2||user=="Dev"){
+            string pass;
+            for(int e=9;;){
+                cout<<"è¾“å…¥å¯†ç (exité€€å‡º):";
+                cin>>pass;
+                if(pass==passdev){
+                    cout<<"è¾“å…¥æ–°å¯†ç :";
+                    cin>>passdev;
+                    cls;
+                    cout<<"æ›´æ”¹æˆåŠŸï¼"<<endl;
+                    break;
+                }else if(pass=="exit"){
+                    cout<<"---------------------------"<<endl;
+                    return;
+                }else if(e!=1&&e<=6){
+                    e--;
+                    cls;
+                    cout<<"*å¯†ç é”™è¯¯!\nä½ è¿˜æœ‰"<<e<<"æ¬¡æœºä¼šã€‚è¯·é‡æ–°";
+                }else if(e>6){
+                    e--;
+                    cls;
+                    cout<<"*å¯†ç é”™è¯¯!\nè¯·é‡æ–°";
+                }else if(e==1){
+                    cout<<"å¯†ç é”™è¯¯5æ¬¡ï¼Œç»ˆæ­¢è®¤è¯ã€‚"<<endl;
+                    cout<<"---------------------------"<<endl;
+                    return;
+                }
+            }
+            cls;
+        }else{
+            cout<<"æ‚¨ä¸æ˜¯ç®¡ç†å‘˜!\n";
+        }
+        cout<<"---------------------------"<<endl;
+    }else if(mingling=="virus"){
+        HAV();
+    }else if(mingling=="format"){
+        kill();
+        root();//å»ºç«‹è™šæ‹Ÿé©±åŠ¨
+        Start();//å¼€æœº
+        users();//åˆ›å»ºç”¨æˆ·
+        Welcome();//ç”¨æˆ·ï¼Œä½ å¥½
+        cout<<"è¾“å…¥<help>è·å–å¸®åŠ©ã€‚"<<endl;
+        return;
+    }else if(mingling=="tree"){
+        cout<<"------------tree------------"<<endl;
+        cout<<"ç£ç›˜    å¯ç”¨ç©ºé—´    å·²ç”¨ç©ºé—´"<<endl;
+        cout<<"H:\\     10MB        2MB     "<<endl;
+        cout<<"----------------------------"<<endl;
+    }else if(mingling=="cop"){
+        for(a=0;a<cx;a++){
+            for(b=0;b<cy;b++){
+                cout<<corp[a][b];
+            }
+            cout<<endl;
+        }
+    }else if(mingling=="logoff"){
+        cls;
+        users();
+        Welcome();//ç”¨æˆ·ï¼Œä½ å¥½
+        cout<<"è¾“å…¥<help>è·å–å¸®åŠ©ã€‚"<<endl;
+        wr=0;
+    }else if(mingling=="store"){
+        HelloStore();
+    }else if(mingling=="chkver"){
+        HelloUpdata();
+    }else if(mingling=="time"){
+        PrintTime();
+    }else if(mingling=="color"){
+        cout<<"----------ä¸ªæ€§åŒ–----------"<<endl;
+        cout<<"COLOR>";
+        string colors;
+        cin>>colors;
+        color(colors);
+        cout<<"--------------------------"<<endl;
+    }else if(mingling=="insys"){
+        cout<<"---------å®¿ä¸»ç³»ç»Ÿæ–‡ä»¶---------"<<endl;
+        cout<<"backå›åˆ°HelloOS"<<endl;
+        cout<<">>>"; 
+        string s;
+        int b=false;
+        char sys[500]={'\0'};
+        getline(cin,s);
+        if(s=="back"){
+            wr=0;
+        }else{
+            for(int i=0;i<s.size();i++){
+                sys[i]=s[i];
+            }
+            b=chdir(sys);
+            if(b==-1){
+                cout<<'\"'<<sys<<"\"ç›®å½•åé”™è¯¯ï¼"<<endl;
+            }else{
+                wr=5;
+            }
+        }
+        cout<<"------------------------------"<<endl;
+    }else if(mingling=="open"){
+        cout<<"-----------æŸ¥çœ‹æ–‡æœ¬-----------"<<endl;
+        cout<<"è¾“å…¥æ–‡ä»¶å>> ";
+        char ch[1000];
+        cin>>ch;
+        readfile(ch);
+        cout<<"------------------------------"<<endl;
+    }else if(mingling=="\0"){
+        //ç©º
+    }else{
+        if(basic){
+            char ch[1000],j;
+            int len=str.size();
+            for(int i=0;i<1000;i++){
+              if(i<len){
+                 j=str[i];
+                 ch[i]=j;
+              }else{
+                   ch[i]='\0';
+               }
+            }
+            system(ch);
+        }else{
+            cout<<"\""<<str<<"\"æ—¢ä¸æ˜¯å‘½ä»¤,ä¹Ÿä¸æ˜¯å¯æ‰§è¡Œæ–‡ä»¶æˆ–æ‰¹å¤„ç†æ–‡ä»¶"<<endl;
+        }
+    }
+}//æ‰§è¡Œ
 void input(){
-	int b,c=0;
-	string inp;
-	Welcome();//ÓÃ»§£¬ÄãºÃ
-	cout<<"ÊäÈë<help>»ñÈ¡°ïÖú¡£"<<endl;
-	wr=0;
-	for(;;){
-		cout<<"\r";
-		where(wr);
-		getline(cin,inp);
-		run(inp);
-	}
-}//ÊäÈë
-/*--------------Ö÷º¯ÊıÇø--------------*/
+    int b,c=0;
+    string inp;
+    Welcome();//ç”¨æˆ·ï¼Œä½ å¥½
+    cout<<"è¾“å…¥<help>è·å–å¸®åŠ©ã€‚"<<endl;
+    wr=0;
+    for(;;){
+        cout<<"\r";
+        where(wr);
+        getline(cin,inp);
+        run(inp);
+    }
+}//è¾“å…¥
+/*--------------ä¸»å‡½æ•°åŒº--------------*/
 int HelloMain(){
-	path=getcwd(NULL,0);
-	Start();//¿ª»ú
-	jihuo();//*/
-	users();//´´½¨ÓÃ»§
-	input();//ÔËĞĞÏµÍ³
-	return 0;
-}//Ö÷º¯Êı
-/*---------------º¯ÊıÇø---------------*/
+    path=getcwd(NULL,0);
+    Start();//å¼€æœº
+    jihuo();//*/
+    users();//åˆ›å»ºç”¨æˆ·
+    input();//è¿è¡Œç³»ç»Ÿ
+    return 0;
+}//ä¸»å‡½æ•°
+/*---------------å‡½æ•°åŒº---------------*/
 int GetTimes(int lei){
-	time_t now_time;
-	now_time = time(NULL);
-	tm* timer=gmtime(&now_time);
-	if(lei==0){
-		return 1900+timer->tm_year;
-	}else if(lei==1){
-		return 1+timer->tm_mon;
-	}else if(lei==2){
-		return timer->tm_mday;
-	}else if(lei==3){
-		return timer->tm_hour+Utc;
-	}else if(lei==4){
-		return timer->tm_min;
-	}else if(lei==5){
-		return timer->tm_sec;
-	}else{
-		return now_time;
-	}
+    time_t now_time;
+    now_time = time(NULL);
+    tm* timer=gmtime(&now_time);
+    if(lei==0){
+        return 1900+timer->tm_year;
+    }else if(lei==1){
+        return 1+timer->tm_mon;
+    }else if(lei==2){
+        return timer->tm_mday;
+    }else if(lei==3){
+        return timer->tm_hour+Utc;
+    }else if(lei==4){
+        return timer->tm_min;
+    }else if(lei==5){
+        return timer->tm_sec;
+    }else{
+        return now_time;
+    }
 }
 string GetCmd(string str,int num){
-	int space=0,zb=0;
-	string nowstr;
-	for(int i=str.size()-1;str[i]==' ';i--){
-		str.erase(i);
-	}//Ä¨³ıÎ²²¿¿Õ¸ñ
-	for(int i=0;str[i]==' ';i++){
-		str[i]='\0';
-	}//Ä¨³ıÇ°×º¿Õ¸ñ
-	if(num==0){
-		for(int i=0,j=0;i<str.size();i++){
-			if(str[i]==' '){
-				break;
-			}
-			nowstr.push_back(str[i]);
-			j++;
-		}
-		return nowstr;
-	}
-	for(int i=0;i<str.size();i++){
-		if(str[i]==' '){
-			space++;
-		}
-		if(space==num){
-			zb=i+1;
-			break;
-		}
-	}
-	if(space==0){
-		return str;
-	}
-	for(int i=zb,j=0;i<str.size();i++){
-		if(str[i]==' '){
-			break;
-		}
-		nowstr.push_back(str[i]);
-		j++;
-	}
-	return nowstr;
-}//»ñÈ¡ÊäÈëÃüÁîµÄÌØ¶¨ÇøÓò£¨ÓÃ¿Õ¸ñ·Ö¸î£©
+    int space=0,zb=0;
+    string nowstr;
+    for(int i=str.size()-1;str[i]==' ';i--){
+        str.erase(i);
+    }//æŠ¹é™¤å°¾éƒ¨ç©ºæ ¼
+    for(int i=0;str[i]==' ';i++){
+        str[i]='\0';
+    }//æŠ¹é™¤å‰ç¼€ç©ºæ ¼
+    if(num==0){
+        for(int i=0,j=0;i<str.size();i++){
+            if(str[i]==' '){
+                break;
+            }
+            nowstr.push_back(str[i]);
+            j++;
+        }
+        return nowstr;
+    }
+    for(int i=0;i<str.size();i++){
+        if(str[i]==' '){
+            space++;
+        }
+        if(space==num){
+            zb=i+1;
+            break;
+        }
+    }
+    if(space==0){
+        return str;
+    }
+    for(int i=zb,j=0;i<str.size();i++){
+        if(str[i]==' '){
+            break;
+        }
+        nowstr.push_back(str[i]);
+        j++;
+    }
+    return nowstr;
+}//è·å–è¾“å…¥å‘½ä»¤çš„ç‰¹å®šåŒºåŸŸï¼ˆç”¨ç©ºæ ¼åˆ†å‰²ï¼‰
 void loading(int num){
-	char load[5]={'-','\\','|','/'};
-	int a,b=0;
-	cout<<"/";
-	for(a=0;a<num;a++){
-		if(b==4){
-			b=0;
-		}
-		cout<<'\b'<<load[b];
-		Sleep(100);
-		b++;
-	}
-	cout<<'\b'<<" ";
-}//Loading¶¯»­
+    char load[5]={'-','\\','|','/'};
+    int a,b=0;
+    cout<<"/";
+    for(a=0;a<num;a++){
+        if(b==4){
+            b=0;
+        }
+        cout<<'\b'<<load[b];
+        Sleep(100);
+        b++;
+    }
+    cout<<'\b'<<" ";
+}//LoadingåŠ¨ç”»
 void Logo(){
-	char ch[6][17]={
-		"----[]        []",
-		"    []        []",
-		"----[][][][][][]",
-		"    []        []",
-		"    []        []",
-		"----[]<><><><>[]"
-	};
-	int a,b;
-	for(a=0;a<6;a++){
-		cout<<"          ";
-		for(b=0;b<17;b++){
-			cout<<ch[a][b];
-			if(a==0){
-				Sleep(50);
-			}
-		}
-		Sleep(70);
-		cout<<endl;
-	}
-}//logo¶¯»­
+    char ch[6][17]={
+        "----[]        []",
+        "    []        []",
+        "----[][][][][][]",
+        "    []        []",
+        "    []        []",
+        "----[]<><><><>[]"
+    };
+    int a,b;
+    for(a=0;a<6;a++){
+        cout<<"          ";
+        for(b=0;b<17;b++){
+            cout<<ch[a][b];
+            if(a==0){
+                Sleep(50);
+            }
+        }
+        Sleep(70);
+        cout<<endl;
+    }
+}//logoåŠ¨ç”»
 void logo(){
-	char ch[6][17]={
-		"----[]        []",
-		"    []        []",
-		"----[][][][][][]",
-		"    []        []",
-		"    []        []",
-		"----[]<><><><>[]"
-	};
-	int a,b;
-	for(a=0;a<6;a++){
-		cout<<"     ";
-		for(b=0;b<17;b++){
-			cout<<ch[a][b];
-		}
-		cout<<endl;
-	}
+    char ch[6][17]={
+        "----[]        []",
+        "    []        []",
+        "----[][][][][][]",
+        "    []        []",
+        "    []        []",
+        "----[]<><><><>[]"
+    };
+    int a,b;
+    for(a=0;a<6;a++){
+        cout<<"     ";
+        for(b=0;b<17;b++){
+            cout<<ch[a][b];
+        }
+        cout<<endl;
+    }
 }
 void nlogo(int space){
-	char ch[6][17]={
-		"----[]        []",
-		"    []        []",
-		"----[][][][][][]",
-		"    []        []",
-		"    []        []",
-		"----[]<><><><>[]"
-	};
-	int a,b;
-	for(a=0;a<6;a++){
-		for(b=0;b<space;b++){
-			cout<<" ";
-		}
-		for(b=0;b<17;b++){
-			cout<<ch[a][b];
-		}
-		cout<<endl;
-	}
+    char ch[6][17]={
+        "----[]        []",
+        "    []        []",
+        "----[][][][][][]",
+        "    []        []",
+        "    []        []",
+        "----[]<><><><>[]"
+    };
+    int a,b;
+    for(a=0;a<6;a++){
+        for(b=0;b<space;b++){
+            cout<<" ";
+        }
+        for(b=0;b<17;b++){
+            cout<<ch[a][b];
+        }
+        cout<<endl;
+    }
 }
 void root(){
-	char ch[6][17]={
-		"----[]        []",
-		"    []        []",
-		"----[][][][][][]",
-		"    []        []",
-		"    []        []",
-		"----[]<><><><>[]"
-	};
-	char res[26][70]={
-		"Format disk H:\%:",
-		" Format floder H\%Software",
-		"  Format file H\%Software\%HelloAntiVirus.hexe",
-		"  Format floder H\%Software\%Dos",
-		"   Format file H\%Software\%Dos\%Dos.hexe",
-		"   Format file H\%Software\%Dos\%Dos.hdll",
-		" Format floder H\%System",
-		"  Format file H\%System\%HelloStore.hexe",
-		"  Format file H\%System\%Run.sys",
-		"  Format file H\%System\%User.sys",//10
-		"  Format file H\%System\%Start.sys",
-		"  Format file H\%System\%runsys.hdll",
-		"  Format file H\%System\%runhdll.hexe",
-		"  Format file H\%System\%runsys.hexe",
-		"  Makeing file H\%HelloOS.iso",
-		"  Format file H\%System\%HelloOS.sys",
-		"Starting H:\%HelloOS.iso",
-		" Mounting System files",
-		" Mounting System files",
-		" Mounting System files",
-		" Checking...",
-		"Mounting commands",
-		" Delete format temp files",
-		" Delete Updata files",
-		"#Info# Error:Don't have file H:\%UpdataTemp\%HelloOSStart.com",
-		"#info# Ready for the next try"
-	};
-	int a,b;
-	for(a=0;a<6;a++){
-		cout<<"          ";
-		for(b=0;b<17;b++){
-			cout<<ch[a][b];
-		}
-		Sleep(80);
-		cout<<endl;
-	}
-	for(a=0;a<=200;a++){
-		Sleep(70);
-		if(a%8==0&&a!=0){
-			cout<<"\r";
-			for(b=0;b<a;b=b+4){
-				cout<<"\b=>";
-			}
-		}
-		cout<<"Loading..."<<res[a%27]<<endl;
-	}
-	cout<<"\b";
-	cls;
-}//½¨Á¢ĞéÄâÇı¶¯
+    char ch[6][17]={
+        "----[]        []",
+        "    []        []",
+        "----[][][][][][]",
+        "    []        []",
+        "    []        []",
+        "----[]<><><><>[]"
+    };
+    char res[26][70]={
+        "Format disk H:\%:",
+        " Format floder H\%Software",
+        "  Format file H\%Software\%HelloAntiVirus.hexe",
+        "  Format floder H\%Software\%Dos",
+        "   Format file H\%Software\%Dos\%Dos.hexe",
+        "   Format file H\%Software\%Dos\%Dos.hdll",
+        " Format floder H\%System",
+        "  Format file H\%System\%HelloStore.hexe",
+        "  Format file H\%System\%Run.sys",
+        "  Format file H\%System\%User.sys",//10
+        "  Format file H\%System\%Start.sys",
+        "  Format file H\%System\%runsys.hdll",
+        "  Format file H\%System\%runhdll.hexe",
+        "  Format file H\%System\%runsys.hexe",
+        "  Makeing file H\%HelloOS.iso",
+        "  Format file H\%System\%HelloOS.sys",
+        "Starting H:\%HelloOS.iso",
+        " Mounting System files",
+        " Mounting System files",
+        " Mounting System files",
+        " Checking...",
+        "Mounting commands",
+        " Delete format temp files",
+        " Delete Updata files",
+        "#Info# Error:Don't have file H:\%UpdataTemp\%HelloOSStart.com",
+        "#info# Ready for the next try"
+    };
+    int a,b;
+    for(a=0;a<6;a++){
+        cout<<"          ";
+        for(b=0;b<17;b++){
+            cout<<ch[a][b];
+        }
+        Sleep(80);
+        cout<<endl;
+    }
+    for(a=0;a<=200;a++){
+        Sleep(70);
+        if(a%8==0&&a!=0){
+            cout<<"\r";
+            for(b=0;b<a;b=b+4){
+                cout<<"\b=>";
+            }
+        }
+        cout<<"Loading..."<<res[a%27]<<endl;
+    }
+    cout<<"\b";
+    cls;
+}//å»ºç«‹è™šæ‹Ÿé©±åŠ¨
 void newload(int num){
-	char ch[30][100]={
-		"                                  ",
-		"o                                 ",
-		" o                                ",
-		"o o                               ",
-		" o o                              ",
-		"o o o                             ",
-		" o o o                            ",
-		"o o o o                           ",
-		" o o o o                          ",
-		"o o o o o                         ",
-		" o o o o  o                       ",
-		"  o o o  o   o                    ",
-		"   o o  o   o    o                ",
-		"    o  o   o    o     o           ",
-		"      o   o    o     o    o       ",
-		"        o    o     o    o   o     ",
-		"           o     o    o   o  o    ",
-		"                o    o   o  o o   ",
-		"                    o   o  o o o  ",
-		"                       o  o o o o ",
-		"                         o o o o o",
-		"                          o o o o ",
-		"                           o o o o",
-		"                            o o o ",
-		"                             o o o",
-		"                              o o ",
-		"                               o o",
-		"                                o ",
-		"                                 o",
-		"                                  ",
-	};
-	for(int i=0;i<num;i++){
-		for(int j=0;j<30;j++){
-			cout<<'\r'<<ch[j];
-			Sleep(100);
-		}
-		Sleep(500);
-	}
+    char ch[30][100]={
+        "                                  ",
+        "Â·                                 ",
+        " Â·                                ",
+        "Â· Â·                               ",
+        " Â· Â·                              ",
+        "Â· Â· Â·                             ",
+        " Â· Â· Â·                            ",
+        "Â· Â· Â· Â·                           ",
+        " Â· Â· Â· Â·                          ",
+        "Â· Â· Â· Â· Â·                         ",
+        " Â· Â· Â· Â·  Â·                       ",
+        "  Â· Â· Â·  Â·   Â·                    ",
+        "   Â· Â·  Â·   Â·    Â·                ",
+        "    Â·  Â·   Â·    Â·     Â·           ",
+        "      Â·   Â·    Â·     Â·    Â·       ",
+        "        Â·    Â·     Â·    Â·   Â·     ",
+        "           Â·     Â·    Â·   Â·  Â·    ",
+        "                Â·    Â·   Â·  Â· Â·   ",
+        "                    Â·   Â·  Â· Â· Â·  ",
+        "                       Â·  Â· Â· Â· Â· ",
+        "                         Â· Â· Â· Â· Â·",
+        "                          Â· Â· Â· Â· ",
+        "                           Â· Â· Â· Â·",
+        "                            Â· Â· Â· ",
+        "                             Â· Â· Â·",
+        "                              Â· Â· ",
+        "                               Â· Â·",
+        "                                Â· ",
+        "                                 Â·",
+        "                                  ",
+    };
+    for(int i=0;i<num;i++){
+        for(int j=0;j<30;j++){
+            cout<<'\r'<<ch[j];
+            Sleep(100);
+        }
+        Sleep(500);
+    }
 }
 void Start(){
-	srand(time(NULL));
-	Sleep(1500+rand()%1500);
-	cout<<"#State# System self-test";
-	Sleep(rand()%400+400);
-	cout<<endl<<"#Info# NORMAL"<<endl;
-	cout<<"#State# Loading Disk Hardrive...";
-	Sleep(rand()%600+600);
-	cout<<endl;
-	cls;
-	Sleep(500);
-	//*/
-	Logo();
-	Sleep(rand()%1500+1500);
-	cout<<endl<<endl;
-	newload(rand()%2+2);
-	cls;
-}//¿ª»ú
+    srand(time(NULL));
+    Sleep(1500+rand()%1500);
+    cout<<"#State# System self-test";
+    Sleep(rand()%400+400);
+    cout<<endl<<"#Info# NORMAL"<<endl;
+    cout<<"#State# Loading Disk Hardrive...";
+    Sleep(rand()%600+600);
+    cout<<endl;
+    cls;
+    Sleep(500);
+    //*/
+    Logo();
+    Sleep(rand()%1500+1500);
+    cout<<endl<<endl;
+    newload(rand()%2+2);
+    cls;
+}//å¼€æœº
 string bts(string str){
-	int a,len=str.size();
-	for(a=0;a<len;a++){
-		if(str[a]>='A'&&str[a]<='Z'){
-			str[a]=str[a]+32;
-		}
-	}
-	return str;
+    int a,len=str.size();
+    for(a=0;a<len;a++){
+        if(str[a]>='A'&&str[a]<='Z'){
+            str[a]=str[a]+32;
+        }
+    }
+    return str;
 }
 void users(){
-	cout<<"´´½¨ÓÃ»§Ãû£º";
-	cin>>user;
-	cout<<"Downloading Files ";
-	loading(20);
-	cls;
-}//´´½¨ÓÃ»§
+    cout<<"åˆ›å»ºç”¨æˆ·åï¼š";
+    cin>>user;
+    cout<<"Downloading Files ";
+    loading(20);
+    cls;
+}//åˆ›å»ºç”¨æˆ·
 void Welcome(){
-	string pass;
-	if(user=="Admin"){
-		for(int e=9;;){
-			cout<<"ÊäÈëÃÜÂë(exitÍË³ö):";
-			cin>>pass;
-			if(pass==passwd){
-				admin=1;jiami=1;
-				break;
-			}else if(pass=="exit"){
-				user="Ä¬ÈÏuser";jiami=0;
-				break;
-			}else if(e!=1&&e<=6){
-				e--;
-				cls;
-				cout<<"*ÃÜÂë´íÎó!\nÄã»¹ÓĞ"<<e<<"´Î»ú»á¡£ÇëÖØĞÂ";
-			}else if(e>6){
-				e--;
-				cls;
-				cout<<"*ÃÜÂë´íÎó!\nÇëÖØĞÂ";
-			}else if(e==1){
-				cout<<"ÃÜÂë´íÎó5´Î£¬ÖÕÖ¹ÈÏÖ¤¡£"<<endl;
-				Sleep(3000);jiami=0;
-				user="Ä¬ÈÏuser";
-				break;
-			}
-		}
-		cls;
-	}else if(user=="Dev"){
-		for(int e=9;;){
-			cout<<"ÊäÈëÃÜÂë(exitÍË³ö):";
-			cin>>pass;
-			if(pass==passdev){
-				admin=2;jiami=1;
-				break;
-			}else if(pass=="exit"){
-				user="Ä¬ÈÏuser";jiami=0;
-				break;
-			}else if(e!=1&&e<=6){
-				e--;
-				cls;
-				cout<<"*ÃÜÂë´íÎó!\nÄã»¹ÓĞ"<<e<<"´Î»ú»á¡£ÇëÖØĞÂ";
-			}else if(e>6){
-				e--;
-				cls;
-				cout<<"*ÃÜÂë´íÎó!\nÇëÖØĞÂ";
-			}else if(e==1){
-				cout<<"ÃÜÂë´íÎó5´Î£¬ÖÕÖ¹ÈÏÖ¤¡£"<<endl;
-				Sleep(3000);jiami=0;
-				user="Ä¬ÈÏuser";
-				break;
-			}
-		}
-		cls;
-	}
-	cout<<user<<"£¬ÄãºÃ£¡"<<endl;
-	Sleep(1000);
-}//ÓÃ»§£¬ÄãºÃ
+    string pass;
+    if(user=="Admin"){
+        for(int e=9;;){
+            cout<<"è¾“å…¥å¯†ç (exité€€å‡º):";
+            cin>>pass;
+            if(pass==passwd){
+                admin=1;jiami=1;
+                break;
+            }else if(pass=="exit"){
+                user="é»˜è®¤user";jiami=0;
+                break;
+            }else if(e!=1&&e<=6){
+                e--;
+                cls;
+                cout<<"*å¯†ç é”™è¯¯!\nä½ è¿˜æœ‰"<<e<<"æ¬¡æœºä¼šã€‚è¯·é‡æ–°";
+            }else if(e>6){
+                e--;
+                cls;
+                cout<<"*å¯†ç é”™è¯¯!\nè¯·é‡æ–°";
+            }else if(e==1){
+                cout<<"å¯†ç é”™è¯¯5æ¬¡ï¼Œç»ˆæ­¢è®¤è¯ã€‚"<<endl;
+                Sleep(3000);jiami=0;
+                user="é»˜è®¤user";
+                break;
+            }
+        }
+        cls;
+    }else if(user=="Dev"){
+        for(int e=9;;){
+            cout<<"è¾“å…¥å¯†ç (exité€€å‡º):";
+            cin>>pass;
+            if(pass==passdev){
+                admin=2;jiami=1;
+                break;
+            }else if(pass=="exit"){
+                user="é»˜è®¤user";jiami=0;
+                break;
+            }else if(e!=1&&e<=6){
+                e--;
+                cls;
+                cout<<"*å¯†ç é”™è¯¯!\nä½ è¿˜æœ‰"<<e<<"æ¬¡æœºä¼šã€‚è¯·é‡æ–°";
+            }else if(e>6){
+                e--;
+                cls;
+                cout<<"*å¯†ç é”™è¯¯!\nè¯·é‡æ–°";
+            }else if(e==1){
+                cout<<"å¯†ç é”™è¯¯5æ¬¡ï¼Œç»ˆæ­¢è®¤è¯ã€‚"<<endl;
+                Sleep(3000);jiami=0;
+                user="é»˜è®¤user";
+                break;
+            }
+        }
+        cls;
+    }
+    cout<<user<<"ï¼Œä½ å¥½ï¼"<<endl;
+    Sleep(1000);
+}//ç”¨æˆ·ï¼Œä½ å¥½
 void where(int a){
-	if(user=="Admin"){
-		cout<<"¹ÜÀíÔ±_";
-	}else if(user=="Dev"){
-		cout<<"¿ª·¢Õß²âÊÔÕËºÅ_";
-	}else{
-		cout<<user<<"_";
-	}
-	if(a==5){
-		path=getcwd(NULL,0);
-		for(int i=0;i<strlen(path);i++){
-			if(path[i]=='/'||path[i]=='\\'){
-				cout<<'%';
-			}else{
-				cout<<path[i];
-			}
-		}
-		cout<<"-# ";
-		return;
-	}
-	cout<<Where[a];
-}//ÅÌ·û
+    if(user=="Admin"){
+        cout<<"ç®¡ç†å‘˜_";
+    }else if(user=="Dev"){
+        cout<<"å¼€å‘è€…æµ‹è¯•è´¦å·_";
+    }else{
+        cout<<user<<"_";
+    }
+    if(a==5){
+        path=getcwd(NULL,0);
+        for(int i=0;i<strlen(path);i++){
+            if(path[i]=='/'||path[i]=='\\'){
+                cout<<'%';
+            }else{
+                cout<<path[i];
+            }
+        }
+        cout<<"-# ";
+        return;
+    }
+    cout<<Where[a];
+}//ç›˜ç¬¦
 void close(){
-	srand(time(NULL));
-	colorset="normal";
-	cls;
-	c_normal;
-	cout<<"              Shutdown"<<endl<<endl;
-	cout<<"           HelloOSÕıÔÚ¹Ø»ú"<<endl<<endl<<endl;
-	newload(rand()%5+3);
-	cls;
+    srand(time(NULL));
+    colorset="normal";
+    cls;
+    c_normal;
+    cout<<"              Shutdown"<<endl<<endl;
+    cout<<"           HelloOSæ­£åœ¨å…³æœº"<<endl<<endl<<endl;
+    newload(rand()%5+3);
+    cls;
 }
 void PrintTime(){
-	cout<<"------------Ê±¼ä------------"<<endl;
-	for(int tex=0;tex<10;tex++){
-		cout<<"\r"<<GetTimes(GT_YEA)<<'/'<<GetTimes(GT_MON)<<'/'<<GetTimes(GT_DAY)<<" ";
-		if(GetTimes(GT_HOU)<10){
-			cout<<0;
-		}
-		cout<<GetTimes(GT_HOU)<<':';
-		if(GetTimes(GT_MIN)<10){
-			cout<<0;
-		}
-		cout<<GetTimes(GT_MIN)<<':';
-		if(GetTimes(GT_SEC)<10){
-			cout<<0;
-		}
-		cout<<GetTimes(GT_SEC);
-		Sleep(1000);
-	}
-	cout<<endl;
-	cout<<"----------------------------"<<endl;
+    cout<<"------------æ—¶é—´------------"<<endl;
+    for(int tex=0;tex<10;tex++){
+        cout<<"\r"<<GetTimes(GT_YEA)<<'/'<<GetTimes(GT_MON)<<'/'<<GetTimes(GT_DAY)<<" ";
+        if(GetTimes(GT_HOU)<10){
+            cout<<0;
+        }
+        cout<<GetTimes(GT_HOU)<<':';
+        if(GetTimes(GT_MIN)<10){
+            cout<<0;
+        }
+        cout<<GetTimes(GT_MIN)<<':';
+        if(GetTimes(GT_SEC)<10){
+            cout<<0;
+        }
+            cout<<GetTimes(GT_SEC);
+            Sleep(1000);
+    }
+    cout<<endl;
+    cout<<"----------------------------"<<endl;
 }
 void DOSES(){
-	cout<<"----------DOS----------\n";
-	string str;
-	int i,j,len,cmder=1;
-	char ch[10000];
-	for(;;){
-		if(SYSTEM){
-			cout<<getcwd(NULL,0)<<'>';
-		}else{
-			cout<<"\r\033[32;1m"<<user<<"@HelloOS\033[000m "<<getcwd(NULL,0)<<":~\033[34;1m$\033[000m ";
-		}
-		getline(cin,str);
-		len=str.size();
-		for(i=0;i<10000;i++){
-			if(i<len){
-				j=str[i];
-				ch[i]=j;
-			}else{
-				ch[i]='\0';
-			}
-		}
-		if(str=="dos"){
-			cout<<"----About HelloOS DOS----\n";
-			cout<<"HelloOS Shell 1.0.2"<<endl;
-			cout<<"-------------------------"<<endl;
-			continue;
-		}else if(str=="exit"){
-			cmder--;
-			if(cmder==0){
-				cout<<"----------end----------"<<endl;
-				return;
-			}
-			continue;
-		}
-		system(ch);
-	}
+    cout<<"----------DOS----------\n";
+    string str;
+    int i,j,len,cmder=1;
+    char ch[10000];
+    for(;;){
+        if(SYSTEM){
+            cout<<getcwd(NULL,0)<<'>';
+        }else{
+            cout<<"\r\033[32;1m"<<user<<"@HelloOS\033[000m "<<getcwd(NULL,0)<<":~\033[34;1m$\033[000m ";
+        }
+        getline(cin,str);
+        len=str.size();
+        for(i=0;i<10000;i++){
+            if(i<len){
+                j=str[i];
+                ch[i]=j;
+            }else{
+                ch[i]='\0';
+            }
+        }
+        if(str=="dos"){
+            cout<<"----About HelloOS DOS----\n";
+            cout<<"HelloOS Shell 1.0.2"<<endl;
+            cout<<"-------------------------"<<endl;
+            continue;
+        }else if(str=="exit"){
+            cmder--;
+            if(cmder==0){
+                cout<<"----------end----------"<<endl;
+                return;
+            }
+            continue;
+        }
+        system(ch);
+    }
 }
 void HAV(){
-	string c;
-	int b;
-	cout<<"------HelloAntiVirus------"<<endl;
-	cout<<"ÏµÍ³£º°²È«"<<endl;
-	for(;;){
-		cout<<"[1]É¨Ãè [2]²éÉ± [exit]ÍË³ö"<<endl;
-		cin>>c;
-		if(c=="1"){
-			cout<<0<<"%";
-			for(b=0;b<=100;b++){
-				if(b<10){
-					cout<<"\b\b";
-				}else if(b<=100){
-					cout<<"\b\b\b";
-				}
-				cout<<b<<"%";
-				Sleep(29);
-			}
-			cls;
-			cout<<"É¨ÃèÍê³É£¬°²È«¡£"<<endl;
-		}else if(c=="2"){
-			cout<<"É¨ÃèÖĞ"<<endl;
-			cout<<0<<"%";
-			for(b=0;b<=100;b++){
-				if(b<10){
-					cout<<"\b\b";
-				}else if(b<=100){
-					cout<<"\b\b\b";
-				}
-				cout<<b<<"%";
-				Sleep(29);
-			}
-			cout<<endl;
-			cout<<"²éÉ±ÖĞ"<<endl;
-			cout<<0<<"%";
-			for(b=0;b<=100;b++){
-				if(b<10){
-					cout<<"\b\b";
-				}else if(b<=100){
-					cout<<"\b\b\b";
-				}
-				cout<<b<<"%";
-				Sleep(29);
-			}
-			cls;
-			cout<<"²éÉ±Íê³É¡£"<<endl;
-		}else{
-			cout<<"--------------------------"<<endl;
-			return;
-		}
-	}
+    string c;
+    int b;
+    cout<<"------HelloAntiVirus------"<<endl;
+    cout<<"ç³»ç»Ÿï¼šå®‰å…¨"<<endl;
+    for(;;){
+        cout<<"[1]æ‰«æ [2]æŸ¥æ€ [exit]é€€å‡º"<<endl;
+        cin>>c;
+        if(c=="1"){
+            cout<<0<<"%";
+            for(b=0;b<=100;b++){
+                if(b<10){
+                    cout<<"\b\b";
+                }else if(b<=100){
+                    cout<<"\b\b\b";
+                }
+                cout<<b<<"%";
+                Sleep(29);
+            }
+            cls;
+            cout<<"æ‰«æå®Œæˆï¼Œå®‰å…¨ã€‚"<<endl;
+        }else if(c=="2"){
+            cout<<"æ‰«æä¸­"<<endl;
+            cout<<0<<"%";
+            for(b=0;b<=100;b++){
+                if(b<10){
+                    cout<<"\b\b";
+                }else if(b<=100){
+                    cout<<"\b\b\b";
+                }
+                cout<<b<<"%";
+                Sleep(29);
+            }
+            cout<<endl;
+            cout<<"æŸ¥æ€ä¸­"<<endl;
+            cout<<0<<"%";
+            for(b=0;b<=100;b++){
+                if(b<10){
+                    cout<<"\b\b";
+                }else if(b<=100){
+                    cout<<"\b\b\b";
+                }
+                cout<<b<<"%";
+                Sleep(29);
+            }
+            cls;
+            cout<<"æŸ¥æ€å®Œæˆã€‚"<<endl;
+        }else{
+            cout<<"--------------------------"<<endl;
+            return;
+        }
+    }
 }
 void kill(){
-	cout<<"----------¸ñÊ½»¯----------"<<endl;
-	int b;
-	cout<<"×¼±¸ÖĞ. . ."<<endl;
-	Sleep(5000);
-	cout<<0<<"%";
-	for(b=0;b<=100;b++){
-		if(b<10){
-			cout<<"\b\b";
-		}else if(b<=100){
-			cout<<"\b\b\b";
-		}
-		cout<<b<<"%";
-		Sleep(29);
-	}
-	cls;
-	cout<<"-------¸ñÊ½»¯³É¹¦£¡-------"<<endl;
-	Sleep(1000);
-	cls;
+    cout<<"----------æ ¼å¼åŒ–----------"<<endl;
+    int b;
+    cout<<"å‡†å¤‡ä¸­. . ."<<endl;
+    Sleep(5000);
+    cout<<0<<"%";
+    for(b=0;b<=100;b++){
+        if(b<10){
+            cout<<"\b\b";
+        }else if(b<=100){
+            cout<<"\b\b\b";
+        }
+        cout<<b<<"%";
+        Sleep(29);
+    }
+    cls;
+    cout<<"-------æ ¼å¼åŒ–æˆåŠŸï¼-------"<<endl;
+    Sleep(1000);
+    cls;
 }
 void HelloStore(){
-	int b,ins;
-	cout<<"----------HelloStore----------"<<endl;
-	string str;
-	for(;;){
-		cout<<"==========ÏÂÔØ/Ğ¶ÔØ=========="<<endl;
-		cout<<"Hello¼ÓÃÜ        ";
-		if(jiami==0){
-			cout<<"  install[1]"<<endl;
-		}else{
-			cout<<"uninstall[1]"<<endl;
-		}
-		cout<<"ÊäÈë(exitÍË³ö)>";
-		getline(cin,str);
-		if(str=="1"){
-			if(jiami==1){
-				jiami=0;
-				ins=0;
-			}else{
-				jiami=1;
-				ins=1;
-			}
-		}else if(str=="exit"){
-			cout<<"------------------------------"<<endl;
-			return;
-		}else{
-			cls;
-			continue;
-		}
-		if(ins==1){
-			cout<<"ÏÂÔØÖĞ"<<endl;
-			cout<<0<<"%";
-			for(b=0;b<=100;b++){
-				if(b<10){
-					cout<<"\b\b";
-				}else if(b<=100){
-					cout<<"\b\b\b";
-				}
-				cout<<b<<"%";
-				Sleep(100);
-			}
-			cout<<endl;
-			cout<<"°²×°ÖĞ"<<endl;
-			cout<<0<<"%";
-			for(b=0;b<=100;b++){
-				if(b<10){
-					cout<<"\b\b";
-				}else if(b<=100){
-					cout<<"\b\b\b";
-				}
-				cout<<b<<"%";
-				Sleep(39);
-			}
-			cls;
-			cout<<"°²×°³É¹¦£¡"<<endl;
-		}else{
-			cout<<"Ğ¶ÔØÖĞ"<<endl;
-			cout<<0<<"%";
-			for(b=0;b<=100;b++){
-				if(b<10){
-					cout<<"\b\b";
-				}else if(b<=100){
-					cout<<"\b\b\b";
-				}
-				cout<<b<<"%";
-				Sleep(50);
-			}
-			cout<<endl;
-			cls;
-			cout<<"Ğ¶ÔØÍê³É£¡"<<endl;
-		}
-	}
+    int b,ins;
+    cout<<"----------HelloStore----------"<<endl;
+    string str;
+    for(;;){
+        cout<<"==========ä¸‹è½½/å¸è½½=========="<<endl;
+        cout<<"HelloåŠ å¯†        ";
+        if(jiami==0){
+            cout<<"  install[1]"<<endl;
+        }else{
+            cout<<"uninstall[1]"<<endl;
+        }
+        cout<<"è¾“å…¥(exité€€å‡º)>";
+        getline(cin,str);
+        if(str=="1"){
+            if(jiami==1){
+                jiami=0;
+                ins=0;
+            }else{
+                jiami=1;
+                ins=1;
+            }
+        }else if(str=="exit"){
+            cout<<"------------------------------"<<endl;
+            return;
+        }else{
+            cls;
+            continue;
+        }
+        if(ins==1){
+            cout<<"ä¸‹è½½ä¸­"<<endl;
+            cout<<0<<"%";
+            for(b=0;b<=100;b++){
+                if(b<10){
+                    cout<<"\b\b";
+                }else if(b<=100){
+                    cout<<"\b\b\b";
+                }
+                cout<<b<<"%";
+                Sleep(100);
+            }
+            cout<<endl;
+            cout<<"å®‰è£…ä¸­"<<endl;
+            cout<<0<<"%";
+            for(b=0;b<=100;b++){
+                if(b<10){
+                    cout<<"\b\b";
+                }else if(b<=100){
+                    cout<<"\b\b\b";
+                }
+                cout<<b<<"%";
+                Sleep(39);
+            }
+            cls;
+            cout<<"å®‰è£…æˆåŠŸï¼"<<endl;
+        }else{
+            cout<<"å¸è½½ä¸­"<<endl;
+            cout<<0<<"%";
+            for(b=0;b<=100;b++){
+                if(b<10){
+                    cout<<"\b\b";
+                }else if(b<=100){
+                    cout<<"\b\b\b";
+                }
+                cout<<b<<"%";
+                Sleep(50);
+            }
+            cout<<endl;
+            cls;
+            cout<<"å¸è½½å®Œæˆï¼"<<endl;
+        }
+    }
 }
 void HelloUpdata(){
-	int a,yea=GetTimes(GT_YEA),mon=GetTimes(GT_MON),day=GetTimes(GT_DAY);
-	cout<<"----------ÏµÍ³¸üĞÂ-----------"<<endl;
-	if(yea>2022||(mon>12&&yea==2022)||(mon==12&&yea==2022&&day>=5)){
-		cout<<"·¢ÏÖĞÂ°æ±¾: v1.0."<<ver+1<<endl;
-		cout<<"ÇëÏÂÔØ×îĞÂ°æ±¾"<<endl;
-	}else{
-		cout<<"ÄúÒÑÊÇ×îĞÂ°æ±¾"<<endl;
-	}
-	cout<<"-----------------------------"<<endl;
+    int a,yea=GetTimes(GT_YEA),mon=GetTimes(GT_MON),day=GetTimes(GT_DAY);
+    cout<<"----------ç³»ç»Ÿæ›´æ–°-----------"<<endl;
+    if(yea>2022||(mon>12&&yea==2022)||(mon==12&&yea==2022&&day>=5)){
+        cout<<"å‘ç°æ–°ç‰ˆæœ¬: v1.0."<<ver+1<<endl;
+        cout<<"è¯·ä¸‹è½½æœ€æ–°ç‰ˆæœ¬"<<endl;
+    }else{
+        cout<<"æ‚¨å·²æ˜¯æœ€æ–°ç‰ˆæœ¬"<<endl;
+    }
+    cout<<"-----------------------------"<<endl;
 }
 void Encrypt(){
-	string str,s;
-	int a,b;
-	cout<<"----------Hello¼ÓÃÜ----------"<<endl;
-	cout<<"       --(Ò»¿î¿­ÈöÂë¼ÓÃÜÈí¼ş)"<<endl;
-	for(b=0;;b++){
-		cout<<"[1]¼ÓÃÜ  [2]½âÃÜ   [exit]ÍË³ö"<<endl;
-		cout<<"choose>";
-		getline(cin,str);
-		if(str=="1"){
-			cout<<"×Ö·û´®>";
-			getline(cin,s);
-			for(a=0;a<s.size();a++){
-				if(s[a]>='a'&&s[a]<='w'){
-					s[a]=s[a]+3;
-				}else if(s[a]>='x'&&s[a]<='z'){
-					s[a]=s[a]-26+3;
-				}else if(s[a]>='0'&&s[a]<='8'){
-					s[a]++;
-				}else if(s[a]=='9'){
-					s[a]='0';
-				}else if(s[a]>='A'&&s[a]<='W'){
-					s[a]=s[a]+3;
-				}else if(s[a]>='X'&&s[a]<='Z'){
-					s[a]=s[a]-26+3;
-				}
-			}
-			cls;
-			cout<<"¼ÓÃÜºó£º"<<s<<endl;
-		}else if(str=="2"){
-			cout<<"×Ö·û´®>";
-			getline(cin,s);
-			for(a=0;a<s.size();a++){
-				if(s[a]>='d'&&s[a]<='z'){
-					s[a]=s[a]-3;
-				}else if(s[a]>='a'&&s[a]<='c'){
-					s[a]=s[a]+26-3;
-				}else if(s[a]>='1'&&s[a]<='9'){
-					s[a]--;
-				}else if(s[a]=='0'){
-					s[a]='9';
-				}else if(s[a]>='D'&&s[a]<='Z'){
-					s[a]=s[a]-3;
-				}else if(s[a]>='A'&&s[a]<='C'){
-					s[a]=s[a]+26-3;
-				}
-			}
-			cls;
-			cout<<"½âÃÜºó£º"<<s<<endl;
-		}else if(str=="exit"){
-			cout<<"-----------------------------"<<endl;
-			return;
-		}else if(b==0&&str=="\0"){
-			cls;
-			cout<<"----------Hello¼ÓÃÜ----------"<<endl;
-			cout<<"       --(Ò»¿î¿­ÈöÂë¼ÓÃÜÈí¼ş)"<<endl;
-		}else{
-			cls;
-		}
-	}
+    string str,s;
+    int a,b;
+    cout<<"----------HelloåŠ å¯†----------"<<endl;
+    cout<<"       --(ä¸€æ¬¾å‡¯æ’’ç åŠ å¯†è½¯ä»¶)"<<endl;
+    for(b=0;;b++){
+        cout<<"[1]åŠ å¯†  [2]è§£å¯†   [exit]é€€å‡º"<<endl;
+        cout<<"choose>";
+        getline(cin,str);
+        if(str=="1"){
+            cout<<"å­—ç¬¦ä¸²>";
+            getline(cin,s);
+            for(a=0;a<s.size();a++){
+                if(s[a]>='a'&&s[a]<='w'){
+                    s[a]=s[a]+3;
+                }else if(s[a]>='x'&&s[a]<='z'){
+                    s[a]=s[a]-26+3;
+                }else if(s[a]>='0'&&s[a]<='8'){
+                    s[a]++;
+                }else if(s[a]=='9'){
+                    s[a]='0';
+                }else if(s[a]>='A'&&s[a]<='W'){
+                    s[a]=s[a]+3;
+                }else if(s[a]>='X'&&s[a]<='Z'){
+                    s[a]=s[a]-26+3;
+                }
+            }
+            cls;
+            cout<<"åŠ å¯†åï¼š"<<s<<endl;
+        }else if(str=="2"){
+            cout<<"å­—ç¬¦ä¸²>";
+            getline(cin,s);
+            for(a=0;a<s.size();a++){
+                if(s[a]>='d'&&s[a]<='z'){
+                    s[a]=s[a]-3;
+                }else if(s[a]>='a'&&s[a]<='c'){
+                    s[a]=s[a]+26-3;
+                }else if(s[a]>='1'&&s[a]<='9'){
+                    s[a]--;
+                }else if(s[a]=='0'){
+                    s[a]='9';
+                }else if(s[a]>='D'&&s[a]<='Z'){
+                    s[a]=s[a]-3;
+                }else if(s[a]>='A'&&s[a]<='C'){
+                    s[a]=s[a]+26-3;
+                }
+            }
+            cls;
+            cout<<"è§£å¯†åï¼š"<<s<<endl;
+        }else if(str=="exit"){
+            cout<<"-----------------------------"<<endl;
+            return;
+        }else if(b==0&&str=="\0"){
+            cls;
+            cout<<"----------HelloåŠ å¯†----------"<<endl;
+            cout<<"       --(ä¸€æ¬¾å‡¯æ’’ç åŠ å¯†è½¯ä»¶)"<<endl;
+        }else{
+            cls;
+        }
+    }
 }
 void Basic(){
-	string inp;
-	for(;;){
-		cout<<"\r";
-		where(wr);
-		getline(cin,inp);
-		run(inp);
+    string inp;
+    for(;;){
+        cout<<"\r";
+        where(wr);
+        getline(cin,inp);
+        run(inp);
+    }
+}
+bool checkpass(string s){
+	if(s.size()!=25){
+		return 0;
 	}
+	long long l=0;
+	for(int i=0;i<s.size();i++){
+		if(s[i]=='-'){
+			continue;
+		}
+		l=l+s[i];
+	}
+	if(l%128!=1){
+		return 0;
+	}
+	int y=0;
+	for(int i=0;i<4;i++){
+		y=y*10+(s[i]-'0'-20);
+	}
+	if(y!=GetTimes(GT_YEA)){
+		return 0;
+	}
+	y=0;
+	for(int i=4;i<7;i++){
+		if(i==5){
+			continue;
+		}
+		y=y*10+(s[i]-'0'-20);
+	}
+	if(y!=GetTimes(GT_MON)){
+		return 0;
+	}
+	y=0;
+	for(int i=7;i<9;i++){
+		y=y*10+(s[i]-'0'-20);
+	}
+	if(y!=GetTimes(GT_DAY)){
+		return 0;
+	}
+	y=0;
+	for(int i=9;i<11;i++){
+		y=y*10+(s[i]-'0'-20);
+	}
+	if(y>=GetTimes(GT_HOU)&&y<GetTimes(GT_HOU)+2){
+		return 1;
+	}
+	return 0;
 }
 void jihuo(){
-	//The Normal Version don't need this.
+	ifstream check ("./ps/ps.hni");
+	if(chdir("ps")==0&&check.is_open()==0){
+		return;
+	}else{
+		cout<<"-----------éœ€è¦æ¿€æ´»ä»¥ä½¿ç”¨HelloOS----------"<<endl<<endl;
+		while(true){
+			cout<<"è¯·è¾“å…¥æ¿€æ´»ç # ";
+			string str;
+			getline(cin,str);
+			if(checkpass(str)){
+				system("mkdir ps");
+				ofstream fout ("./ps/ps.hni");
+				
+				fout.close();
+				return;
+			}else if(str!="\0"){
+				cls;
+				cout<<"-----------éœ€è¦æ¿€æ´»ä»¥ä½¿ç”¨HelloOS----------"<<endl<<endl;
+				cout<<"*æ¿€æ´»ç ä¸æ­£ç¡®!"<<endl;
+			}else{
+				cls;
+				cout<<"-----------éœ€è¦æ¿€æ´»ä»¥ä½¿ç”¨HelloOS----------"<<endl<<endl;
+			}
+		}
+	}
+	cout<<"æ¿€æ´»æˆåŠŸï¼"<<endl;
+	
 }
 void readfile(char filename[]){
-	ifstream fin;
-	fin.open(filename);
-	if(!fin.is_open()){
-		cout<<"Ã»ÓĞÕâ¸öÎÄ¼ş»òÃ»ÓĞÈ¨ÏŞ"<<endl;
-	}
-	string str;
-	while(getline(fin,str)){
-		cout<<str<<endl;
-	}
-	fin.close();
+    ifstream fin;
+    fin.open(filename);
+    if(!fin.is_open()){
+        cout<<"æ²¡æœ‰è¿™ä¸ªæ–‡ä»¶æˆ–æ²¡æœ‰æƒé™"<<endl;
+    }
+    string str;
+    while(getline(fin,str)){
+        cout<<str<<endl;
+    }
+    fin.close();
 }
 #endif /*HelloOS*/
-
-/***=================END=================***/
-/**
----------------------ºó¼Ç---------------------
-|    HelloOS£¬ÊÇÎÒÓĞÊ·ÒÔÀ´±àĞ´µÄ×î´óµÄÏîÄ¿¡£ |
-|´ÓÖ»ÓĞ¿ªÊ¼½çÃæµÄv0.0.1µ½ÍêÉÆ°æv1.0.6£¬»¨·ÑÁË|
-|ÎÒ´óÔ¼2¸öÔÂµÄÊ±¼ä¡£¶øÄ¿Ç°HelloOS»¹ÊÇÒ»¸öÓ¦ÓÃ|
-|³ÌĞò£¬Ö»ÊÇÒ»¸ö"WindowsºÍLinuxµÄÍæÎï"¡£      |
-|    Õâ¸öÏîÄ¿È·Êµ²»ºÃĞ´£¬ÎÒÓöµ½µÄÊ×ÒªÎÊÌâ¾ÍÊÇ|
-|ÎÄ¼ş²Ù×÷ºóÎŞ·¨Êä³öµ½ÖÕ¶Ë£¬Æä¶ş¾ÍÊÇÑÕÉ«ÎÊÌâ£º|
-|Õâ¸öÏµÍ³±ØĞë¼æÓÃLinuxºÍWindows(ÎÒÒªÓÃIOS£¬¶ø|
-|±àĞ´C++Ö»¿ÉÒÔÓÃIOSÔÚLinuxÍøÉÏ±à)£¬LinuxµÄ\03|
-|3ºÍWindowsAPIµÄSetConsoleTextAttribute²»Í¬£¬|
-|Ç°Õß¿ÉÒÔĞ´Îªcout<<"\033[xx;ym"£¬¶øºóÕßĞèĞ´Ò»|
-|´ó¶Ñº¯Êı¡£Õâ¿É¾Í²»ºÃÅªÁË£¬ÎÒÖ»ÄÜÔİÍ£Windows |
-|µÄcolor³ÌĞò(Ö»ÄÜÔÚDOS»òBASICÀïÓÃcolorÃüÁî)¡£|
-|µ±È»£¬ÏÖÔÚÎÒÅªºÃÁË¡£                        |
-|    Ä¿Ç°£¬Õâ¸öÏµÍ³»¹²»Ëã·Ç³£ÍêÉÆ£¬±Ï¾¹ËüÖ»ÓĞ|
-|1000ĞĞ´úÂë¡£²»¹ı£¬ÎÒÆÚ´ıÓëÖÚ³ÌĞòÔ±Ò»Æğ£¬´´½¨|
-|¸üºÃµÄÏµÍ³!!!                               |
-|                              by Ziming Zhou|
-|                                  2022/06/29|
-|                                            |
-|       @TheDeveloper:CMD SUTDIO,HelloCompany|
-----------------------------------------------
-¿ÉÔËĞĞµÄÏµÍ³:Windows 95-Windows 11,Linux¸÷°æ±¾
-**/
-/**
-#ÌØ±ğÃùĞ»#
-½ğÎõÈ»ÏÈÉú:¶ÔÅÌ·ûµÄ½¨Òé
---ÏòÒÔÉÏÈËÔ±±íÊ¾¸ĞĞ»£¡ 
-**/
