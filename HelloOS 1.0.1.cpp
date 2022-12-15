@@ -1328,79 +1328,8 @@ void Basic(){
     }
 }
 bool checkpass(string s){
-	if(s.size()!=25){
-		return 0;
-	}
-	long long l=0;
-	for(int i=0;i<s.size();i++){
-		if(s[i]=='-'){
-			continue;
-		}
-		l=l+s[i];
-	}
-	if(l%128!=1){
-		return 0;
-	}
-	int y=0;
-	for(int i=0;i<4;i++){
-		y=y*10+(s[i]-'0'-20);
-	}
-	if(y!=GetTimes(GT_YEA)){
-		return 0;
-	}
-	y=0;
-	for(int i=4;i<7;i++){
-		if(i==5){
-			continue;
-		}
-		y=y*10+(s[i]-'0'-20);
-	}
-	if(y!=GetTimes(GT_MON)){
-		return 0;
-	}
-	y=0;
-	for(int i=7;i<9;i++){
-		y=y*10+(s[i]-'0'-20);
-	}
-	if(y!=GetTimes(GT_DAY)){
-		return 0;
-	}
-	y=0;
-	for(int i=9;i<11;i++){
-		y=y*10+(s[i]-'0'-20);
-	}
-	if(y>=GetTimes(GT_HOU)&&y<GetTimes(GT_HOU)+2){
-		return 1;
-	}
-	return 0;
 }
 void jihuo(){
-	ifstream check ("./ps/ps.hni");
-	if(chdir("ps")==0&&check.is_open()==0){
-		return;
-	}else{
-		cout<<"-----------需要激活以使用HelloOS----------"<<endl<<endl;
-		while(true){
-			cout<<"请输入激活码# ";
-			string str;
-			getline(cin,str);
-			if(checkpass(str)){
-				system("mkdir ps");
-				ofstream fout ("./ps/ps.hni");
-				
-				fout.close();
-				return;
-			}else if(str!="\0"){
-				cls;
-				cout<<"-----------需要激活以使用HelloOS----------"<<endl<<endl;
-				cout<<"*激活码不正确!"<<endl;
-			}else{
-				cls;
-				cout<<"-----------需要激活以使用HelloOS----------"<<endl<<endl;
-			}
-		}
-	}
-	cout<<"激活成功！"<<endl;
 	
 }
 void readfile(char filename[]){
